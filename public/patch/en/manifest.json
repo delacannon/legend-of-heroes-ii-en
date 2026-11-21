@@ -1,0 +1,4864 @@
+{
+ "format": "kizuato-re-patch/1",
+ "game": "EiyuuDensetsu2",
+ "lang": "en",
+ "version": "2026.11.21",
+ "created": "2026-11-21T22:03:38.265Z",
+ "title": "Dragon Slayer: The Legend of Heroes II — English translation",
+ "requires": "your own copy of Dragon Slayer: The Legend of Heroes II (Nihon Falcom, PC-98), hard-disk image (.hdi) with the ED2-98 folder",
+ "credits": [
+  "The Legend of Heroes II EN",
+  "Original game © 1992 Nihon Falcom.",
+  "Made with Kizuato Studio"
+ ],
+ "files": [
+  {
+   "path": "ED2-98/SCENA/C_000.BZH",
+   "patch": "ED2-98_SCENA_C_000.BZH.bps",
+   "source": {
+    "size": 898,
+    "crc32": "9655e0b8"
+   },
+   "target": {
+    "size": 1042,
+    "crc32": "db4a1f98"
+   }
+  },
+  {
+   "path": "ED2-98/SCENA/C_001.BZH",
+   "patch": "ED2-98_SCENA_C_001.BZH.bps",
+   "source": {
+    "size": 1356,
+    "crc32": "11f4bc8a"
+   },
+   "target": {
+    "size": 1610,
+    "crc32": "001c2ee2"
+   }
+  },
+  {
+   "path": "ED2-98/SCENA/C_002.BZH",
+   "patch": "ED2-98_SCENA_C_002.BZH.bps",
+   "source": {
+    "size": 3222,
+    "crc32": "f72ceb29"
+   },
+   "target": {
+    "size": 3672,
+    "crc32": "917db4bf"
+   }
+  },
+  {
+   "path": "ED2-98/SCENA/C_003.BZH",
+   "patch": "ED2-98_SCENA_C_003.BZH.bps",
+   "source": {
+    "size": 1644,
+    "crc32": "e21a3752"
+   },
+   "target": {
+    "size": 1951,
+    "crc32": "3fedc5c4"
+   }
+  },
+  {
+   "path": "ED2-98/SCENA/C_006.BZH",
+   "patch": "ED2-98_SCENA_C_006.BZH.bps",
+   "source": {
+    "size": 2326,
+    "crc32": "f1e9c9cb"
+   },
+   "target": {
+    "size": 2825,
+    "crc32": "53aa9492"
+   }
+  },
+  {
+   "path": "ED2-98/SCENA/C_008.BZH",
+   "patch": "ED2-98_SCENA_C_008.BZH.bps",
+   "source": {
+    "size": 352,
+    "crc32": "97a1dad6"
+   },
+   "target": {
+    "size": 371,
+    "crc32": "97b33ebc"
+   }
+  },
+  {
+   "path": "ED2-98/SCENA/C_009.BZH",
+   "patch": "ED2-98_SCENA_C_009.BZH.bps",
+   "source": {
+    "size": 1006,
+    "crc32": "39095bf8"
+   },
+   "target": {
+    "size": 1196,
+    "crc32": "3dfe3bec"
+   }
+  },
+  {
+   "path": "ED2-98/SCENA/C_00A.BZH",
+   "patch": "ED2-98_SCENA_C_00A.BZH.bps",
+   "source": {
+    "size": 1345,
+    "crc32": "28da6a5b"
+   },
+   "target": {
+    "size": 1652,
+    "crc32": "6f1ad7a0"
+   }
+  },
+  {
+   "path": "ED2-98/SCENA/C_00B.BZH",
+   "patch": "ED2-98_SCENA_C_00B.BZH.bps",
+   "source": {
+    "size": 1321,
+    "crc32": "ebeec741"
+   },
+   "target": {
+    "size": 1467,
+    "crc32": "1ddd2fa0"
+   }
+  },
+  {
+   "path": "ED2-98/SCENA/C_00E.BZH",
+   "patch": "ED2-98_SCENA_C_00E.BZH.bps",
+   "source": {
+    "size": 2906,
+    "crc32": "4305a2d0"
+   },
+   "target": {
+    "size": 3320,
+    "crc32": "79a162ce"
+   }
+  },
+  {
+   "path": "ED2-98/SCENA/C_010.BZH",
+   "patch": "ED2-98_SCENA_C_010.BZH.bps",
+   "source": {
+    "size": 274,
+    "crc32": "a7559cfd"
+   },
+   "target": {
+    "size": 306,
+    "crc32": "fd5723d5"
+   }
+  },
+  {
+   "path": "ED2-98/SCENA/C_011.BZH",
+   "patch": "ED2-98_SCENA_C_011.BZH.bps",
+   "source": {
+    "size": 879,
+    "crc32": "a12ab11a"
+   },
+   "target": {
+    "size": 1062,
+    "crc32": "a9c87c46"
+   }
+  },
+  {
+   "path": "ED2-98/SCENA/C_012.BZH",
+   "patch": "ED2-98_SCENA_C_012.BZH.bps",
+   "source": {
+    "size": 1560,
+    "crc32": "e6dade27"
+   },
+   "target": {
+    "size": 1843,
+    "crc32": "d92514db"
+   }
+  },
+  {
+   "path": "ED2-98/SCENA/C_013.BZH",
+   "patch": "ED2-98_SCENA_C_013.BZH.bps",
+   "source": {
+    "size": 1230,
+    "crc32": "03c85657"
+   },
+   "target": {
+    "size": 1405,
+    "crc32": "a300b80e"
+   }
+  },
+  {
+   "path": "ED2-98/SCENA/C_014.BZH",
+   "patch": "ED2-98_SCENA_C_014.BZH.bps",
+   "source": {
+    "size": 274,
+    "crc32": "e0370a8d"
+   },
+   "target": {
+    "size": 292,
+    "crc32": "a333a62c"
+   }
+  },
+  {
+   "path": "ED2-98/SCENA/C_015.BZH",
+   "patch": "ED2-98_SCENA_C_015.BZH.bps",
+   "source": {
+    "size": 940,
+    "crc32": "1d55570b"
+   },
+   "target": {
+    "size": 1085,
+    "crc32": "3f08a7b9"
+   }
+  },
+  {
+   "path": "ED2-98/SCENA/C_016.BZH",
+   "patch": "ED2-98_SCENA_C_016.BZH.bps",
+   "source": {
+    "size": 1429,
+    "crc32": "3202b443"
+   },
+   "target": {
+    "size": 1719,
+    "crc32": "f4a67366"
+   }
+  },
+  {
+   "path": "ED2-98/SCENA/C_017.BZH",
+   "patch": "ED2-98_SCENA_C_017.BZH.bps",
+   "source": {
+    "size": 1210,
+    "crc32": "6bbb74de"
+   },
+   "target": {
+    "size": 1322,
+    "crc32": "9e9cc50c"
+   }
+  },
+  {
+   "path": "ED2-98/SCENA/C_100.BZH",
+   "patch": "ED2-98_SCENA_C_100.BZH.bps",
+   "source": {
+    "size": 1869,
+    "crc32": "02ade48a"
+   },
+   "target": {
+    "size": 2300,
+    "crc32": "27650540"
+   }
+  },
+  {
+   "path": "ED2-98/SCENA/C_101.BZH",
+   "patch": "ED2-98_SCENA_C_101.BZH.bps",
+   "source": {
+    "size": 2160,
+    "crc32": "6a433242"
+   },
+   "target": {
+    "size": 2647,
+    "crc32": "07699e5d"
+   }
+  },
+  {
+   "path": "ED2-98/SCENA/C_102.BZH",
+   "patch": "ED2-98_SCENA_C_102.BZH.bps",
+   "source": {
+    "size": 1574,
+    "crc32": "e1edf0b5"
+   },
+   "target": {
+    "size": 1925,
+    "crc32": "e8440659"
+   }
+  },
+  {
+   "path": "ED2-98/SCENA/C_103.BZH",
+   "patch": "ED2-98_SCENA_C_103.BZH.bps",
+   "source": {
+    "size": 1399,
+    "crc32": "d791abdc"
+   },
+   "target": {
+    "size": 1778,
+    "crc32": "758e2b7b"
+   }
+  },
+  {
+   "path": "ED2-98/SCENA/C_104.BZH",
+   "patch": "ED2-98_SCENA_C_104.BZH.bps",
+   "source": {
+    "size": 938,
+    "crc32": "fd93224e"
+   },
+   "target": {
+    "size": 1130,
+    "crc32": "5b3be1ae"
+   }
+  },
+  {
+   "path": "ED2-98/SCENA/C_105.BZH",
+   "patch": "ED2-98_SCENA_C_105.BZH.bps",
+   "source": {
+    "size": 990,
+    "crc32": "d526380f"
+   },
+   "target": {
+    "size": 1253,
+    "crc32": "ef924087"
+   }
+  },
+  {
+   "path": "ED2-98/SCENA/C_106.BZH",
+   "patch": "ED2-98_SCENA_C_106.BZH.bps",
+   "source": {
+    "size": 938,
+    "crc32": "559f8c55"
+   },
+   "target": {
+    "size": 1148,
+    "crc32": "4600f6c0"
+   }
+  },
+  {
+   "path": "ED2-98/SCENA/C_107.BZH",
+   "patch": "ED2-98_SCENA_C_107.BZH.bps",
+   "source": {
+    "size": 842,
+    "crc32": "c5ff2ac2"
+   },
+   "target": {
+    "size": 1011,
+    "crc32": "d2ce05bc"
+   }
+  },
+  {
+   "path": "ED2-98/SCENA/C_200.BZH",
+   "patch": "ED2-98_SCENA_C_200.BZH.bps",
+   "source": {
+    "size": 1336,
+    "crc32": "a42000e3"
+   },
+   "target": {
+    "size": 1711,
+    "crc32": "c8b10ed3"
+   }
+  },
+  {
+   "path": "ED2-98/SCENA/C_201.BZH",
+   "patch": "ED2-98_SCENA_C_201.BZH.bps",
+   "source": {
+    "size": 1169,
+    "crc32": "6f286fbc"
+   },
+   "target": {
+    "size": 1425,
+    "crc32": "7ff0a5e6"
+   }
+  },
+  {
+   "path": "ED2-98/SCENA/C_202.BZH",
+   "patch": "ED2-98_SCENA_C_202.BZH.bps",
+   "source": {
+    "size": 1313,
+    "crc32": "fee9b9e9"
+   },
+   "target": {
+    "size": 1623,
+    "crc32": "b5b20c45"
+   }
+  },
+  {
+   "path": "ED2-98/SCENA/C_203.BZH",
+   "patch": "ED2-98_SCENA_C_203.BZH.bps",
+   "source": {
+    "size": 1845,
+    "crc32": "8aa8dde5"
+   },
+   "target": {
+    "size": 2306,
+    "crc32": "04fd0112"
+   }
+  },
+  {
+   "path": "ED2-98/SCENA/C_204.BZH",
+   "patch": "ED2-98_SCENA_C_204.BZH.bps",
+   "source": {
+    "size": 940,
+    "crc32": "84f2442a"
+   },
+   "target": {
+    "size": 1095,
+    "crc32": "a606b0a2"
+   }
+  },
+  {
+   "path": "ED2-98/SCENA/C_300.BZH",
+   "patch": "ED2-98_SCENA_C_300.BZH.bps",
+   "source": {
+    "size": 687,
+    "crc32": "5410a909"
+   },
+   "target": {
+    "size": 767,
+    "crc32": "85e8c06c"
+   }
+  },
+  {
+   "path": "ED2-98/SCENA/C_301.BZH",
+   "patch": "ED2-98_SCENA_C_301.BZH.bps",
+   "source": {
+    "size": 2186,
+    "crc32": "574fea91"
+   },
+   "target": {
+    "size": 2614,
+    "crc32": "8e4589e6"
+   }
+  },
+  {
+   "path": "ED2-98/SCENA/C_304.BZH",
+   "patch": "ED2-98_SCENA_C_304.BZH.bps",
+   "source": {
+    "size": 964,
+    "crc32": "ef837c5d"
+   },
+   "target": {
+    "size": 1191,
+    "crc32": "0517d364"
+   }
+  },
+  {
+   "path": "ED2-98/SCENA/C_305.BZH",
+   "patch": "ED2-98_SCENA_C_305.BZH.bps",
+   "source": {
+    "size": 1617,
+    "crc32": "33cd3034"
+   },
+   "target": {
+    "size": 1828,
+    "crc32": "0f5ba0d2"
+   }
+  },
+  {
+   "path": "ED2-98/SCENA/C_306.BZH",
+   "patch": "ED2-98_SCENA_C_306.BZH.bps",
+   "source": {
+    "size": 740,
+    "crc32": "1d3d2aee"
+   },
+   "target": {
+    "size": 867,
+    "crc32": "b5221bd9"
+   }
+  },
+  {
+   "path": "ED2-98/SCENA/C_307.BZH",
+   "patch": "ED2-98_SCENA_C_307.BZH.bps",
+   "source": {
+    "size": 1138,
+    "crc32": "6bbf7de3"
+   },
+   "target": {
+    "size": 1384,
+    "crc32": "0af4fa47"
+   }
+  },
+  {
+   "path": "ED2-98/SCENA/C_308.BZH",
+   "patch": "ED2-98_SCENA_C_308.BZH.bps",
+   "source": {
+    "size": 377,
+    "crc32": "41ac22d4"
+   },
+   "target": {
+    "size": 366,
+    "crc32": "d6429216"
+   }
+  },
+  {
+   "path": "ED2-98/SCENA/C_309.BZH",
+   "patch": "ED2-98_SCENA_C_309.BZH.bps",
+   "source": {
+    "size": 1140,
+    "crc32": "cf151f04"
+   },
+   "target": {
+    "size": 1315,
+    "crc32": "7615c9ad"
+   }
+  },
+  {
+   "path": "ED2-98/SCENA/C_500.BZH",
+   "patch": "ED2-98_SCENA_C_500.BZH.bps",
+   "source": {
+    "size": 1418,
+    "crc32": "381213af"
+   },
+   "target": {
+    "size": 1568,
+    "crc32": "8c7899e2"
+   }
+  },
+  {
+   "path": "ED2-98/SCENA/C_501.BZH",
+   "patch": "ED2-98_SCENA_C_501.BZH.bps",
+   "source": {
+    "size": 965,
+    "crc32": "29d973b8"
+   },
+   "target": {
+    "size": 1038,
+    "crc32": "846034e4"
+   }
+  },
+  {
+   "path": "ED2-98/SCENA/C_502.BZH",
+   "patch": "ED2-98_SCENA_C_502.BZH.bps",
+   "source": {
+    "size": 889,
+    "crc32": "b5ec9d3e"
+   },
+   "target": {
+    "size": 946,
+    "crc32": "70fddf90"
+   }
+  },
+  {
+   "path": "ED2-98/SCENA/C_503.BZH",
+   "patch": "ED2-98_SCENA_C_503.BZH.bps",
+   "source": {
+    "size": 811,
+    "crc32": "7c210376"
+   },
+   "target": {
+    "size": 863,
+    "crc32": "01b4ba56"
+   }
+  },
+  {
+   "path": "ED2-98/SCENA/C_504.BZH",
+   "patch": "ED2-98_SCENA_C_504.BZH.bps",
+   "source": {
+    "size": 1038,
+    "crc32": "88551cc0"
+   },
+   "target": {
+    "size": 1245,
+    "crc32": "c417cf09"
+   }
+  },
+  {
+   "path": "ED2-98/SCENA/C_505.BZH",
+   "patch": "ED2-98_SCENA_C_505.BZH.bps",
+   "source": {
+    "size": 2056,
+    "crc32": "6d53a077"
+   },
+   "target": {
+    "size": 2343,
+    "crc32": "d3d91dc4"
+   }
+  },
+  {
+   "path": "ED2-98/SCENA/C_50B.BZH",
+   "patch": "ED2-98_SCENA_C_50B.BZH.bps",
+   "source": {
+    "size": 1054,
+    "crc32": "efbbba2f"
+   },
+   "target": {
+    "size": 1165,
+    "crc32": "d669acbb"
+   }
+  },
+  {
+   "path": "ED2-98/SCENA/C_511.BZH",
+   "patch": "ED2-98_SCENA_C_511.BZH.bps",
+   "source": {
+    "size": 1346,
+    "crc32": "812aaf12"
+   },
+   "target": {
+    "size": 1481,
+    "crc32": "a814206d"
+   }
+  },
+  {
+   "path": "ED2-98/SCENA/C_513.BZH",
+   "patch": "ED2-98_SCENA_C_513.BZH.bps",
+   "source": {
+    "size": 1221,
+    "crc32": "8f85f97d"
+   },
+   "target": {
+    "size": 1331,
+    "crc32": "b842f34c"
+   }
+  },
+  {
+   "path": "ED2-98/SCENA/C_516.BZH",
+   "patch": "ED2-98_SCENA_C_516.BZH.bps",
+   "source": {
+    "size": 1087,
+    "crc32": "e986146b"
+   },
+   "target": {
+    "size": 1183,
+    "crc32": "ce684e72"
+   }
+  },
+  {
+   "path": "ED2-98/SCENA/C_518.BZH",
+   "patch": "ED2-98_SCENA_C_518.BZH.bps",
+   "source": {
+    "size": 1792,
+    "crc32": "fbeafecb"
+   },
+   "target": {
+    "size": 2065,
+    "crc32": "e0bc1f32"
+   }
+  },
+  {
+   "path": "ED2-98/SCENA/C_519.BZH",
+   "patch": "ED2-98_SCENA_C_519.BZH.bps",
+   "source": {
+    "size": 2292,
+    "crc32": "3ea8b289"
+   },
+   "target": {
+    "size": 2600,
+    "crc32": "ec30402e"
+   }
+  },
+  {
+   "path": "ED2-98/SCENA/C_600.BZH",
+   "patch": "ED2-98_SCENA_C_600.BZH.bps",
+   "source": {
+    "size": 1290,
+    "crc32": "feff06c8"
+   },
+   "target": {
+    "size": 1394,
+    "crc32": "9cfffc1b"
+   }
+  },
+  {
+   "path": "ED2-98/SCENA/C_605.BZH",
+   "patch": "ED2-98_SCENA_C_605.BZH.bps",
+   "source": {
+    "size": 642,
+    "crc32": "62d42c00"
+   },
+   "target": {
+    "size": 680,
+    "crc32": "2b2c4a2a"
+   }
+  },
+  {
+   "path": "ED2-98/SCENA/C_608.BZH",
+   "patch": "ED2-98_SCENA_C_608.BZH.bps",
+   "source": {
+    "size": 1427,
+    "crc32": "81059be9"
+   },
+   "target": {
+    "size": 1651,
+    "crc32": "4ea2595b"
+   }
+  },
+  {
+   "path": "ED2-98/SCENA/C_60B.BZH",
+   "patch": "ED2-98_SCENA_C_60B.BZH.bps",
+   "source": {
+    "size": 888,
+    "crc32": "260a8307"
+   },
+   "target": {
+    "size": 961,
+    "crc32": "49843eed"
+   }
+  },
+  {
+   "path": "ED2-98/SCENA/C_610.BZH",
+   "patch": "ED2-98_SCENA_C_610.BZH.bps",
+   "source": {
+    "size": 403,
+    "crc32": "b2b480aa"
+   },
+   "target": {
+    "size": 415,
+    "crc32": "edd27cfe"
+   }
+  },
+  {
+   "path": "ED2-98/SCENA/C_611.BZH",
+   "patch": "ED2-98_SCENA_C_611.BZH.bps",
+   "source": {
+    "size": 930,
+    "crc32": "30ef973c"
+   },
+   "target": {
+    "size": 1003,
+    "crc32": "fe91e76a"
+   }
+  },
+  {
+   "path": "ED2-98/SCENA/C_613.BZH",
+   "patch": "ED2-98_SCENA_C_613.BZH.bps",
+   "source": {
+    "size": 1185,
+    "crc32": "a2731240"
+   },
+   "target": {
+    "size": 1289,
+    "crc32": "9b2c84e8"
+   }
+  },
+  {
+   "path": "ED2-98/SCENA/C_616.BZH",
+   "patch": "ED2-98_SCENA_C_616.BZH.bps",
+   "source": {
+    "size": 1515,
+    "crc32": "635c0fca"
+   },
+   "target": {
+    "size": 1696,
+    "crc32": "4ddfefba"
+   }
+  },
+  {
+   "path": "ED2-98/SCENA/C_620.BZH",
+   "patch": "ED2-98_SCENA_C_620.BZH.bps",
+   "source": {
+    "size": 2552,
+    "crc32": "30bb9118"
+   },
+   "target": {
+    "size": 2909,
+    "crc32": "2e82729b"
+   }
+  },
+  {
+   "path": "ED2-98/SCENA/C_621.BZH",
+   "patch": "ED2-98_SCENA_C_621.BZH.bps",
+   "source": {
+    "size": 390,
+    "crc32": "9493f3f7"
+   },
+   "target": {
+    "size": 412,
+    "crc32": "d043ad0e"
+   }
+  },
+  {
+   "path": "ED2-98/SCENA/C_622.BZH",
+   "patch": "ED2-98_SCENA_C_622.BZH.bps",
+   "source": {
+    "size": 1077,
+    "crc32": "581bc5de"
+   },
+   "target": {
+    "size": 1162,
+    "crc32": "6eb1382e"
+   }
+  },
+  {
+   "path": "ED2-98/SCENA/C_624.BZH",
+   "patch": "ED2-98_SCENA_C_624.BZH.bps",
+   "source": {
+    "size": 947,
+    "crc32": "179e1a4a"
+   },
+   "target": {
+    "size": 1011,
+    "crc32": "2bfa4606"
+   }
+  },
+  {
+   "path": "ED2-98/SCENA/C_625.BZH",
+   "patch": "ED2-98_SCENA_C_625.BZH.bps",
+   "source": {
+    "size": 1681,
+    "crc32": "5a720c7f"
+   },
+   "target": {
+    "size": 1850,
+    "crc32": "92576266"
+   }
+  },
+  {
+   "path": "ED2-98/SCENA/C_629.BZH",
+   "patch": "ED2-98_SCENA_C_629.BZH.bps",
+   "source": {
+    "size": 775,
+    "crc32": "738d4587"
+   },
+   "target": {
+    "size": 858,
+    "crc32": "d6a15d9f"
+   }
+  },
+  {
+   "path": "ED2-98/SCENA/C_630.BZH",
+   "patch": "ED2-98_SCENA_C_630.BZH.bps",
+   "source": {
+    "size": 871,
+    "crc32": "aca6fae2"
+   },
+   "target": {
+    "size": 940,
+    "crc32": "2abcc367"
+   }
+  },
+  {
+   "path": "ED2-98/SCENA/C_631.BZH",
+   "patch": "ED2-98_SCENA_C_631.BZH.bps",
+   "source": {
+    "size": 1056,
+    "crc32": "67ea673f"
+   },
+   "target": {
+    "size": 1136,
+    "crc32": "ea262490"
+   }
+  },
+  {
+   "path": "ED2-98/SCENA/C_632.BZH",
+   "patch": "ED2-98_SCENA_C_632.BZH.bps",
+   "source": {
+    "size": 1469,
+    "crc32": "c9cb91b2"
+   },
+   "target": {
+    "size": 1723,
+    "crc32": "a404a8b6"
+   }
+  },
+  {
+   "path": "ED2-98/SCENA/C_634.BZH",
+   "patch": "ED2-98_SCENA_C_634.BZH.bps",
+   "source": {
+    "size": 1431,
+    "crc32": "d2e581cd"
+   },
+   "target": {
+    "size": 1615,
+    "crc32": "849d7841"
+   }
+  },
+  {
+   "path": "ED2-98/SCENA/C_640.BZH",
+   "patch": "ED2-98_SCENA_C_640.BZH.bps",
+   "source": {
+    "size": 1704,
+    "crc32": "cb2d23e4"
+   },
+   "target": {
+    "size": 1983,
+    "crc32": "62b364f8"
+   }
+  },
+  {
+   "path": "ED2-98/SCENA/C_642.BZH",
+   "patch": "ED2-98_SCENA_C_642.BZH.bps",
+   "source": {
+    "size": 827,
+    "crc32": "469e6541"
+   },
+   "target": {
+    "size": 894,
+    "crc32": "5e2b355d"
+   }
+  },
+  {
+   "path": "ED2-98/SCENA/C_720.BZH",
+   "patch": "ED2-98_SCENA_C_720.BZH.bps",
+   "source": {
+    "size": 954,
+    "crc32": "b043dbab"
+   },
+   "target": {
+    "size": 1023,
+    "crc32": "46113612"
+   }
+  },
+  {
+   "path": "ED2-98/SCENA/C_733.BZH",
+   "patch": "ED2-98_SCENA_C_733.BZH.bps",
+   "source": {
+    "size": 2433,
+    "crc32": "89ad1f64"
+   },
+   "target": {
+    "size": 2796,
+    "crc32": "0eedf88e"
+   }
+  },
+  {
+   "path": "ED2-98/SCENA/C_734.BZH",
+   "patch": "ED2-98_SCENA_C_734.BZH.bps",
+   "source": {
+    "size": 2349,
+    "crc32": "7fe660a2"
+   },
+   "target": {
+    "size": 2665,
+    "crc32": "55d97d91"
+   }
+  },
+  {
+   "path": "ED2-98/SCENA/C_750.BZH",
+   "patch": "ED2-98_SCENA_C_750.BZH.bps",
+   "source": {
+    "size": 1575,
+    "crc32": "7837c3b7"
+   },
+   "target": {
+    "size": 1760,
+    "crc32": "a3586488"
+   }
+  },
+  {
+   "path": "ED2-98/SCENA/C_820.BZH",
+   "patch": "ED2-98_SCENA_C_820.BZH.bps",
+   "source": {
+    "size": 2023,
+    "crc32": "f38bebe4"
+   },
+   "target": {
+    "size": 2331,
+    "crc32": "9f766920"
+   }
+  },
+  {
+   "path": "ED2-98/SCENA/D_112.BZH",
+   "patch": "ED2-98_SCENA_D_112.BZH.bps",
+   "source": {
+    "size": 207,
+    "crc32": "2574f264"
+   },
+   "target": {
+    "size": 222,
+    "crc32": "0e16d608"
+   }
+  },
+  {
+   "path": "ED2-98/SCENA/D_114.BZH",
+   "patch": "ED2-98_SCENA_D_114.BZH.bps",
+   "source": {
+    "size": 1667,
+    "crc32": "6aab0bb3"
+   },
+   "target": {
+    "size": 1825,
+    "crc32": "775e13b0"
+   }
+  },
+  {
+   "path": "ED2-98/SCENA/D_200.BZH",
+   "patch": "ED2-98_SCENA_D_200.BZH.bps",
+   "source": {
+    "size": 1081,
+    "crc32": "3d5af848"
+   },
+   "target": {
+    "size": 1117,
+    "crc32": "5698ddaa"
+   }
+  },
+  {
+   "path": "ED2-98/SCENA/D_201.BZH",
+   "patch": "ED2-98_SCENA_D_201.BZH.bps",
+   "source": {
+    "size": 2801,
+    "crc32": "3b768e21"
+   },
+   "target": {
+    "size": 3190,
+    "crc32": "3034e544"
+   }
+  },
+  {
+   "path": "ED2-98/SCENA/D_202.BZH",
+   "patch": "ED2-98_SCENA_D_202.BZH.bps",
+   "source": {
+    "size": 624,
+    "crc32": "ef3ba3cc"
+   },
+   "target": {
+    "size": 658,
+    "crc32": "8614c8a7"
+   }
+  },
+  {
+   "path": "ED2-98/SCENA/D_204.BZH",
+   "patch": "ED2-98_SCENA_D_204.BZH.bps",
+   "source": {
+    "size": 804,
+    "crc32": "4437f4de"
+   },
+   "target": {
+    "size": 842,
+    "crc32": "a6c79e5a"
+   }
+  },
+  {
+   "path": "ED2-98/SCENA/D_206.BZH",
+   "patch": "ED2-98_SCENA_D_206.BZH.bps",
+   "source": {
+    "size": 294,
+    "crc32": "da8cefd5"
+   },
+   "target": {
+    "size": 304,
+    "crc32": "b750a1e4"
+   }
+  },
+  {
+   "path": "ED2-98/SCENA/D_208.BZH",
+   "patch": "ED2-98_SCENA_D_208.BZH.bps",
+   "source": {
+    "size": 149,
+    "crc32": "facc0a06"
+   },
+   "target": {
+    "size": 135,
+    "crc32": "35dc5251"
+   }
+  },
+  {
+   "path": "ED2-98/SCENA/D_20C.BZH",
+   "patch": "ED2-98_SCENA_D_20C.BZH.bps",
+   "source": {
+    "size": 148,
+    "crc32": "cea73ccd"
+   },
+   "target": {
+    "size": 135,
+    "crc32": "75b2b129"
+   }
+  },
+  {
+   "path": "ED2-98/SCENA/D_401.BZH",
+   "patch": "ED2-98_SCENA_D_401.BZH.bps",
+   "source": {
+    "size": 3123,
+    "crc32": "19e6f127"
+   },
+   "target": {
+    "size": 3872,
+    "crc32": "46a92146"
+   }
+  },
+  {
+   "path": "ED2-98/SCENA/D_405.BZH",
+   "patch": "ED2-98_SCENA_D_405.BZH.bps",
+   "source": {
+    "size": 1557,
+    "crc32": "fd5649d9"
+   },
+   "target": {
+    "size": 1970,
+    "crc32": "5ce307a0"
+   }
+  },
+  {
+   "path": "ED2-98/SCENA/D_407.BZH",
+   "patch": "ED2-98_SCENA_D_407.BZH.bps",
+   "source": {
+    "size": 1335,
+    "crc32": "6a64ed76"
+   },
+   "target": {
+    "size": 1718,
+    "crc32": "dcdf00aa"
+   }
+  },
+  {
+   "path": "ED2-98/SCENA/D_409.BZH",
+   "patch": "ED2-98_SCENA_D_409.BZH.bps",
+   "source": {
+    "size": 925,
+    "crc32": "cf41634c"
+   },
+   "target": {
+    "size": 1104,
+    "crc32": "c1ab2762"
+   }
+  },
+  {
+   "path": "ED2-98/SCENA/D_410.BZH",
+   "patch": "ED2-98_SCENA_D_410.BZH.bps",
+   "source": {
+    "size": 816,
+    "crc32": "02e4b4ec"
+   },
+   "target": {
+    "size": 978,
+    "crc32": "67f2c858"
+   }
+  },
+  {
+   "path": "ED2-98/SCENA/D_412.BZH",
+   "patch": "ED2-98_SCENA_D_412.BZH.bps",
+   "source": {
+    "size": 807,
+    "crc32": "73847be6"
+   },
+   "target": {
+    "size": 974,
+    "crc32": "bc61ac3e"
+   }
+  },
+  {
+   "path": "ED2-98/SCENA/D_414.BZH",
+   "patch": "ED2-98_SCENA_D_414.BZH.bps",
+   "source": {
+    "size": 611,
+    "crc32": "2a18277f"
+   },
+   "target": {
+    "size": 721,
+    "crc32": "dbf14814"
+   }
+  },
+  {
+   "path": "ED2-98/SCENA/D_416.BZH",
+   "patch": "ED2-98_SCENA_D_416.BZH.bps",
+   "source": {
+    "size": 611,
+    "crc32": "009493f1"
+   },
+   "target": {
+    "size": 693,
+    "crc32": "17c270df"
+   }
+  },
+  {
+   "path": "ED2-98/SCENA/D_500.BZH",
+   "patch": "ED2-98_SCENA_D_500.BZH.bps",
+   "source": {
+    "size": 952,
+    "crc32": "8d7183ec"
+   },
+   "target": {
+    "size": 1011,
+    "crc32": "deef7365"
+   }
+  },
+  {
+   "path": "ED2-98/SCENA/D_510.BZH",
+   "patch": "ED2-98_SCENA_D_510.BZH.bps",
+   "source": {
+    "size": 603,
+    "crc32": "6fb11ff4"
+   },
+   "target": {
+    "size": 634,
+    "crc32": "1cb445b6"
+   }
+  },
+  {
+   "path": "ED2-98/SCENA/D_520.BZH",
+   "patch": "ED2-98_SCENA_D_520.BZH.bps",
+   "source": {
+    "size": 1942,
+    "crc32": "aa3de6f1"
+   },
+   "target": {
+    "size": 2138,
+    "crc32": "c6be88bc"
+   }
+  },
+  {
+   "path": "ED2-98/SCENA/D_522.BZH",
+   "patch": "ED2-98_SCENA_D_522.BZH.bps",
+   "source": {
+    "size": 956,
+    "crc32": "453229f3"
+   },
+   "target": {
+    "size": 984,
+    "crc32": "3832108a"
+   }
+  },
+  {
+   "path": "ED2-98/SCENA/D_524.BZH",
+   "patch": "ED2-98_SCENA_D_524.BZH.bps",
+   "source": {
+    "size": 957,
+    "crc32": "adaea20a"
+   },
+   "target": {
+    "size": 984,
+    "crc32": "7301ba70"
+   }
+  },
+  {
+   "path": "ED2-98/SCENA/D_530.BZH",
+   "patch": "ED2-98_SCENA_D_530.BZH.bps",
+   "source": {
+    "size": 858,
+    "crc32": "f699cc54"
+   },
+   "target": {
+    "size": 965,
+    "crc32": "f72ffd3a"
+   }
+  },
+  {
+   "path": "ED2-98/SCENA/D_531.BZH",
+   "patch": "ED2-98_SCENA_D_531.BZH.bps",
+   "source": {
+    "size": 1545,
+    "crc32": "88d5f88a"
+   },
+   "target": {
+    "size": 1643,
+    "crc32": "fb4e6d9e"
+   }
+  },
+  {
+   "path": "ED2-98/SCENA/D_532.BZH",
+   "patch": "ED2-98_SCENA_D_532.BZH.bps",
+   "source": {
+    "size": 665,
+    "crc32": "15b1b2cb"
+   },
+   "target": {
+    "size": 698,
+    "crc32": "3c298800"
+   }
+  },
+  {
+   "path": "ED2-98/SCENA/D_535.BZH",
+   "patch": "ED2-98_SCENA_D_535.BZH.bps",
+   "source": {
+    "size": 1032,
+    "crc32": "89b2785a"
+   },
+   "target": {
+    "size": 1091,
+    "crc32": "2868588c"
+   }
+  },
+  {
+   "path": "ED2-98/SCENA/D_536.BZH",
+   "patch": "ED2-98_SCENA_D_536.BZH.bps",
+   "source": {
+    "size": 654,
+    "crc32": "878e7c90"
+   },
+   "target": {
+    "size": 689,
+    "crc32": "78c88b4a"
+   }
+  },
+  {
+   "path": "ED2-98/SCENA/D_539.BZH",
+   "patch": "ED2-98_SCENA_D_539.BZH.bps",
+   "source": {
+    "size": 1031,
+    "crc32": "9a29942a"
+   },
+   "target": {
+    "size": 1085,
+    "crc32": "f16b8b13"
+   }
+  },
+  {
+   "path": "ED2-98/SCENA/D_53A.BZH",
+   "patch": "ED2-98_SCENA_D_53A.BZH.bps",
+   "source": {
+    "size": 653,
+    "crc32": "872acd2c"
+   },
+   "target": {
+    "size": 690,
+    "crc32": "4b0c9000"
+   }
+  },
+  {
+   "path": "ED2-98/SCENA/E_200.BZH",
+   "patch": "ED2-98_SCENA_E_200.BZH.bps",
+   "source": {
+    "size": 2852,
+    "crc32": "e6d63742"
+   },
+   "target": {
+    "size": 3272,
+    "crc32": "82f3e09f"
+   }
+  },
+  {
+   "path": "ED2-98/SCENA/F_000.BZH",
+   "patch": "ED2-98_SCENA_F_000.BZH.bps",
+   "source": {
+    "size": 2862,
+    "crc32": "7576cfcc"
+   },
+   "target": {
+    "size": 3186,
+    "crc32": "2f2d12b8"
+   }
+  },
+  {
+   "path": "ED2-98/SCENA/F_001.BZH",
+   "patch": "ED2-98_SCENA_F_001.BZH.bps",
+   "source": {
+    "size": 708,
+    "crc32": "f5d2b622"
+   },
+   "target": {
+    "size": 734,
+    "crc32": "ce2fc303"
+   }
+  },
+  {
+   "path": "ED2-98/SCENA/F_200.BZH",
+   "patch": "ED2-98_SCENA_F_200.BZH.bps",
+   "source": {
+    "size": 2695,
+    "crc32": "10755aee"
+   },
+   "target": {
+    "size": 2947,
+    "crc32": "0283f750"
+   }
+  },
+  {
+   "path": "ED2-98/SCENA/F_201.BZH",
+   "patch": "ED2-98_SCENA_F_201.BZH.bps",
+   "source": {
+    "size": 625,
+    "crc32": "5899f2e0"
+   },
+   "target": {
+    "size": 643,
+    "crc32": "2a636eec"
+   }
+  },
+  {
+   "path": "ED2-98/SCENA/F_400.BZH",
+   "patch": "ED2-98_SCENA_F_400.BZH.bps",
+   "source": {
+    "size": 1439,
+    "crc32": "5b263d7e"
+   },
+   "target": {
+    "size": 1586,
+    "crc32": "12ef70f1"
+   }
+  },
+  {
+   "path": "ED2-98/SCENA/F_401.BZH",
+   "patch": "ED2-98_SCENA_F_401.BZH.bps",
+   "source": {
+    "size": 624,
+    "crc32": "ae953ffb"
+   },
+   "target": {
+    "size": 643,
+    "crc32": "66ec7fcb"
+   }
+  },
+  {
+   "path": "ED2-98/SCENA/F_500.BZH",
+   "patch": "ED2-98_SCENA_F_500.BZH.bps",
+   "source": {
+    "size": 1437,
+    "crc32": "e9c6fa78"
+   },
+   "target": {
+    "size": 1587,
+    "crc32": "8507e00d"
+   }
+  },
+  {
+   "path": "ED2-98/SCENA/F_501.BZH",
+   "patch": "ED2-98_SCENA_F_501.BZH.bps",
+   "source": {
+    "size": 1624,
+    "crc32": "5e1536bf"
+   },
+   "target": {
+    "size": 1836,
+    "crc32": "49bcd587"
+   }
+  },
+  {
+   "path": "ED2-98/SCENA/G_200.BZH",
+   "patch": "ED2-98_SCENA_G_200.BZH.bps",
+   "source": {
+    "size": 1928,
+    "crc32": "6393a15b"
+   },
+   "target": {
+    "size": 2299,
+    "crc32": "318b5fef"
+   }
+  },
+  {
+   "path": "ED2-98/SCENA/G_202.BZH",
+   "patch": "ED2-98_SCENA_G_202.BZH.bps",
+   "source": {
+    "size": 976,
+    "crc32": "0b0c230d"
+   },
+   "target": {
+    "size": 1027,
+    "crc32": "227d8aa7"
+   }
+  },
+  {
+   "path": "ED2-98/SCENA/G_204.BZH",
+   "patch": "ED2-98_SCENA_G_204.BZH.bps",
+   "source": {
+    "size": 976,
+    "crc32": "8432c340"
+   },
+   "target": {
+    "size": 1029,
+    "crc32": "cbb6eb26"
+   }
+  },
+  {
+   "path": "ED2-98/SCENA/G_210.BZH",
+   "patch": "ED2-98_SCENA_G_210.BZH.bps",
+   "source": {
+    "size": 957,
+    "crc32": "c490c324"
+   },
+   "target": {
+    "size": 1006,
+    "crc32": "aed0f3fe"
+   }
+  },
+  {
+   "path": "ED2-98/SCENA/G_212.BZH",
+   "patch": "ED2-98_SCENA_G_212.BZH.bps",
+   "source": {
+    "size": 891,
+    "crc32": "c02eb391"
+   },
+   "target": {
+    "size": 930,
+    "crc32": "440d2db7"
+   }
+  },
+  {
+   "path": "ED2-98/SCENA/G_214.BZH",
+   "patch": "ED2-98_SCENA_G_214.BZH.bps",
+   "source": {
+    "size": 892,
+    "crc32": "55b0f1d6"
+   },
+   "target": {
+    "size": 916,
+    "crc32": "dd84d3ee"
+   }
+  },
+  {
+   "path": "ED2-98/SCENA/G_220.BZH",
+   "patch": "ED2-98_SCENA_G_220.BZH.bps",
+   "source": {
+    "size": 1379,
+    "crc32": "ca4a99c5"
+   },
+   "target": {
+    "size": 1504,
+    "crc32": "a614c63d"
+   }
+  },
+  {
+   "path": "ED2-98/SCENA/G_222.BZH",
+   "patch": "ED2-98_SCENA_G_222.BZH.bps",
+   "source": {
+    "size": 966,
+    "crc32": "9f1649d5"
+   },
+   "target": {
+    "size": 1026,
+    "crc32": "7e73bb6e"
+   }
+  },
+  {
+   "path": "ED2-98/SCENA/G_224.BZH",
+   "patch": "ED2-98_SCENA_G_224.BZH.bps",
+   "source": {
+    "size": 949,
+    "crc32": "7eb78725"
+   },
+   "target": {
+    "size": 1010,
+    "crc32": "ccf69ac8"
+   }
+  },
+  {
+   "path": "ED2-98/SCENA/G_230.BZH",
+   "patch": "ED2-98_SCENA_G_230.BZH.bps",
+   "source": {
+    "size": 720,
+    "crc32": "a4ae0d99"
+   },
+   "target": {
+    "size": 755,
+    "crc32": "ba35a609"
+   }
+  },
+  {
+   "path": "ED2-98/SCENA/G_232.BZH",
+   "patch": "ED2-98_SCENA_G_232.BZH.bps",
+   "source": {
+    "size": 694,
+    "crc32": "647baa3c"
+   },
+   "target": {
+    "size": 723,
+    "crc32": "132753c3"
+   }
+  },
+  {
+   "path": "ED2-98/SCENA/G_234.BZH",
+   "patch": "ED2-98_SCENA_G_234.BZH.bps",
+   "source": {
+    "size": 695,
+    "crc32": "f89ad287"
+   },
+   "target": {
+    "size": 726,
+    "crc32": "07789668"
+   }
+  },
+  {
+   "path": "ED2-98/SCENA/G_240.BZH",
+   "patch": "ED2-98_SCENA_G_240.BZH.bps",
+   "source": {
+    "size": 914,
+    "crc32": "af158b35"
+   },
+   "target": {
+    "size": 957,
+    "crc32": "e3eb3080"
+   }
+  },
+  {
+   "path": "ED2-98/SCENA/G_242.BZH",
+   "patch": "ED2-98_SCENA_G_242.BZH.bps",
+   "source": {
+    "size": 912,
+    "crc32": "f148580c"
+   },
+   "target": {
+    "size": 952,
+    "crc32": "e8ad2529"
+   }
+  },
+  {
+   "path": "ED2-98/SCENA/G_244.BZH",
+   "patch": "ED2-98_SCENA_G_244.BZH.bps",
+   "source": {
+    "size": 885,
+    "crc32": "42704b8a"
+   },
+   "target": {
+    "size": 923,
+    "crc32": "16c961ef"
+   }
+  },
+  {
+   "path": "ED2-98/SCENA/G_250.BZH",
+   "patch": "ED2-98_SCENA_G_250.BZH.bps",
+   "source": {
+    "size": 821,
+    "crc32": "272d6dc3"
+   },
+   "target": {
+    "size": 859,
+    "crc32": "474d993f"
+   }
+  },
+  {
+   "path": "ED2-98/SCENA/G_252.BZH",
+   "patch": "ED2-98_SCENA_G_252.BZH.bps",
+   "source": {
+    "size": 1103,
+    "crc32": "d1cd88d7"
+   },
+   "target": {
+    "size": 1152,
+    "crc32": "22561b01"
+   }
+  },
+  {
+   "path": "ED2-98/SCENA/G_254.BZH",
+   "patch": "ED2-98_SCENA_G_254.BZH.bps",
+   "source": {
+    "size": 1078,
+    "crc32": "268d976a"
+   },
+   "target": {
+    "size": 1123,
+    "crc32": "f94e855a"
+   }
+  },
+  {
+   "path": "ED2-98/SCENA/G_262.BZH",
+   "patch": "ED2-98_SCENA_G_262.BZH.bps",
+   "source": {
+    "size": 871,
+    "crc32": "9ff9d67f"
+   },
+   "target": {
+    "size": 916,
+    "crc32": "1d6166e5"
+   }
+  },
+  {
+   "path": "ED2-98/SCENA/G_264.BZH",
+   "patch": "ED2-98_SCENA_G_264.BZH.bps",
+   "source": {
+    "size": 846,
+    "crc32": "c600798e"
+   },
+   "target": {
+    "size": 891,
+    "crc32": "5575eb74"
+   }
+  },
+  {
+   "path": "ED2-98/SCENA/G_272.BZH",
+   "patch": "ED2-98_SCENA_G_272.BZH.bps",
+   "source": {
+    "size": 938,
+    "crc32": "befb11bc"
+   },
+   "target": {
+    "size": 987,
+    "crc32": "12bd51aa"
+   }
+  },
+  {
+   "path": "ED2-98/SCENA/G_274.BZH",
+   "patch": "ED2-98_SCENA_G_274.BZH.bps",
+   "source": {
+    "size": 912,
+    "crc32": "f291a238"
+   },
+   "target": {
+    "size": 955,
+    "crc32": "25cc3192"
+   }
+  },
+  {
+   "path": "ED2-98/SCENA/H_500.BZH",
+   "patch": "ED2-98_SCENA_H_500.BZH.bps",
+   "source": {
+    "size": 1943,
+    "crc32": "8cbe3883"
+   },
+   "target": {
+    "size": 2365,
+    "crc32": "7718ec73"
+   }
+  },
+  {
+   "path": "ED2-98/SCENA/H_502.BZH",
+   "patch": "ED2-98_SCENA_H_502.BZH.bps",
+   "source": {
+    "size": 321,
+    "crc32": "79d4149d"
+   },
+   "target": {
+    "size": 363,
+    "crc32": "e031381a"
+   }
+  },
+  {
+   "path": "ED2-98/SCENA/H_504.BZH",
+   "patch": "ED2-98_SCENA_H_504.BZH.bps",
+   "source": {
+    "size": 302,
+    "crc32": "42e15274"
+   },
+   "target": {
+    "size": 338,
+    "crc32": "9f42d62e"
+   }
+  },
+  {
+   "path": "ED2-98/SCENA/T_000.BZH",
+   "patch": "ED2-98_SCENA_T_000.BZH.bps",
+   "source": {
+    "size": 3067,
+    "crc32": "1001a425"
+   },
+   "target": {
+    "size": 3499,
+    "crc32": "d2a17938"
+   }
+  },
+  {
+   "path": "ED2-98/SCENA/T_001.BZH",
+   "patch": "ED2-98_SCENA_T_001.BZH.bps",
+   "source": {
+    "size": 1348,
+    "crc32": "a11d5a09"
+   },
+   "target": {
+    "size": 1793,
+    "crc32": "5f85216c"
+   }
+  },
+  {
+   "path": "ED2-98/SCENA/T_003.BZH",
+   "patch": "ED2-98_SCENA_T_003.BZH.bps",
+   "source": {
+    "size": 1213,
+    "crc32": "51aac393"
+   },
+   "target": {
+    "size": 1634,
+    "crc32": "9537d44c"
+   }
+  },
+  {
+   "path": "ED2-98/SCENA/T_004.BZH",
+   "patch": "ED2-98_SCENA_T_004.BZH.bps",
+   "source": {
+    "size": 902,
+    "crc32": "d89b3ceb"
+   },
+   "target": {
+    "size": 1106,
+    "crc32": "ccc6dc31"
+   }
+  },
+  {
+   "path": "ED2-98/SCENA/T_006.BZH",
+   "patch": "ED2-98_SCENA_T_006.BZH.bps",
+   "source": {
+    "size": 901,
+    "crc32": "168908a0"
+   },
+   "target": {
+    "size": 1051,
+    "crc32": "784ec112"
+   }
+  },
+  {
+   "path": "ED2-98/SCENA/T_010.BZH",
+   "patch": "ED2-98_SCENA_T_010.BZH.bps",
+   "source": {
+    "size": 1934,
+    "crc32": "931c4c6b"
+   },
+   "target": {
+    "size": 2346,
+    "crc32": "25f4df04"
+   }
+  },
+  {
+   "path": "ED2-98/SCENA/T_011.BZH",
+   "patch": "ED2-98_SCENA_T_011.BZH.bps",
+   "source": {
+    "size": 1602,
+    "crc32": "17732dee"
+   },
+   "target": {
+    "size": 2003,
+    "crc32": "d67f7750"
+   }
+  },
+  {
+   "path": "ED2-98/SCENA/T_013.BZH",
+   "patch": "ED2-98_SCENA_T_013.BZH.bps",
+   "source": {
+    "size": 2137,
+    "crc32": "47ed98e4"
+   },
+   "target": {
+    "size": 2809,
+    "crc32": "2b2773bc"
+   }
+  },
+  {
+   "path": "ED2-98/SCENA/T_014.BZH",
+   "patch": "ED2-98_SCENA_T_014.BZH.bps",
+   "source": {
+    "size": 1338,
+    "crc32": "ca9a89ac"
+   },
+   "target": {
+    "size": 1673,
+    "crc32": "a3d238a4"
+   }
+  },
+  {
+   "path": "ED2-98/SCENA/T_016.BZH",
+   "patch": "ED2-98_SCENA_T_016.BZH.bps",
+   "source": {
+    "size": 1258,
+    "crc32": "16857c4c"
+   },
+   "target": {
+    "size": 1583,
+    "crc32": "7f0031fb"
+   }
+  },
+  {
+   "path": "ED2-98/SCENA/T_020.BZH",
+   "patch": "ED2-98_SCENA_T_020.BZH.bps",
+   "source": {
+    "size": 2041,
+    "crc32": "6ec95075"
+   },
+   "target": {
+    "size": 2431,
+    "crc32": "0f1654c6"
+   }
+  },
+  {
+   "path": "ED2-98/SCENA/T_030.BZH",
+   "patch": "ED2-98_SCENA_T_030.BZH.bps",
+   "source": {
+    "size": 1589,
+    "crc32": "49a40c1a"
+   },
+   "target": {
+    "size": 2047,
+    "crc32": "335ee088"
+   }
+  },
+  {
+   "path": "ED2-98/SCENA/T_032.BZH",
+   "patch": "ED2-98_SCENA_T_032.BZH.bps",
+   "source": {
+    "size": 1138,
+    "crc32": "e5ae2bd2"
+   },
+   "target": {
+    "size": 1463,
+    "crc32": "ae19b7ff"
+   }
+  },
+  {
+   "path": "ED2-98/SCENA/T_034.BZH",
+   "patch": "ED2-98_SCENA_T_034.BZH.bps",
+   "source": {
+    "size": 931,
+    "crc32": "3b285a5b"
+   },
+   "target": {
+    "size": 1151,
+    "crc32": "effc5ba0"
+   }
+  },
+  {
+   "path": "ED2-98/SCENA/T_036.BZH",
+   "patch": "ED2-98_SCENA_T_036.BZH.bps",
+   "source": {
+    "size": 931,
+    "crc32": "62c3d9b1"
+   },
+   "target": {
+    "size": 1151,
+    "crc32": "94735821"
+   }
+  },
+  {
+   "path": "ED2-98/SCENA/T_040.BZH",
+   "patch": "ED2-98_SCENA_T_040.BZH.bps",
+   "source": {
+    "size": 2625,
+    "crc32": "3521e3ed"
+   },
+   "target": {
+    "size": 3099,
+    "crc32": "3fffe299"
+   }
+  },
+  {
+   "path": "ED2-98/SCENA/T_041.BZH",
+   "patch": "ED2-98_SCENA_T_041.BZH.bps",
+   "source": {
+    "size": 1937,
+    "crc32": "70447eb3"
+   },
+   "target": {
+    "size": 2372,
+    "crc32": "f7e08651"
+   }
+  },
+  {
+   "path": "ED2-98/SCENA/T_043.BZH",
+   "patch": "ED2-98_SCENA_T_043.BZH.bps",
+   "source": {
+    "size": 2411,
+    "crc32": "37b19080"
+   },
+   "target": {
+    "size": 2948,
+    "crc32": "7d4ae55a"
+   }
+  },
+  {
+   "path": "ED2-98/SCENA/T_044.BZH",
+   "patch": "ED2-98_SCENA_T_044.BZH.bps",
+   "source": {
+    "size": 1850,
+    "crc32": "52089756"
+   },
+   "target": {
+    "size": 2161,
+    "crc32": "1d477ea0"
+   }
+  },
+  {
+   "path": "ED2-98/SCENA/T_046.BZH",
+   "patch": "ED2-98_SCENA_T_046.BZH.bps",
+   "source": {
+    "size": 1853,
+    "crc32": "e3d9f01b"
+   },
+   "target": {
+    "size": 2275,
+    "crc32": "00c73167"
+   }
+  },
+  {
+   "path": "ED2-98/SCENA/T_100.BZH",
+   "patch": "ED2-98_SCENA_T_100.BZH.bps",
+   "source": {
+    "size": 3018,
+    "crc32": "173a5642"
+   },
+   "target": {
+    "size": 3570,
+    "crc32": "94757b44"
+   }
+  },
+  {
+   "path": "ED2-98/SCENA/T_101.BZH",
+   "patch": "ED2-98_SCENA_T_101.BZH.bps",
+   "source": {
+    "size": 2354,
+    "crc32": "11b10149"
+   },
+   "target": {
+    "size": 2934,
+    "crc32": "1e06838a"
+   }
+  },
+  {
+   "path": "ED2-98/SCENA/T_103.BZH",
+   "patch": "ED2-98_SCENA_T_103.BZH.bps",
+   "source": {
+    "size": 2092,
+    "crc32": "ebab3e37"
+   },
+   "target": {
+    "size": 2607,
+    "crc32": "4eec520d"
+   }
+  },
+  {
+   "path": "ED2-98/SCENA/T_104.BZH",
+   "patch": "ED2-98_SCENA_T_104.BZH.bps",
+   "source": {
+    "size": 1768,
+    "crc32": "503a37f4"
+   },
+   "target": {
+    "size": 2147,
+    "crc32": "76a6c21d"
+   }
+  },
+  {
+   "path": "ED2-98/SCENA/T_106.BZH",
+   "patch": "ED2-98_SCENA_T_106.BZH.bps",
+   "source": {
+    "size": 1819,
+    "crc32": "50e3ae91"
+   },
+   "target": {
+    "size": 2199,
+    "crc32": "3949c400"
+   }
+  },
+  {
+   "path": "ED2-98/SCENA/T_110.BZH",
+   "patch": "ED2-98_SCENA_T_110.BZH.bps",
+   "source": {
+    "size": 1490,
+    "crc32": "2fd4ca14"
+   },
+   "target": {
+    "size": 1905,
+    "crc32": "c44bea60"
+   }
+  },
+  {
+   "path": "ED2-98/SCENA/T_111.BZH",
+   "patch": "ED2-98_SCENA_T_111.BZH.bps",
+   "source": {
+    "size": 3053,
+    "crc32": "d790c33c"
+   },
+   "target": {
+    "size": 3705,
+    "crc32": "09112026"
+   }
+  },
+  {
+   "path": "ED2-98/SCENA/T_112.BZH",
+   "patch": "ED2-98_SCENA_T_112.BZH.bps",
+   "source": {
+    "size": 2213,
+    "crc32": "53045de4"
+   },
+   "target": {
+    "size": 2661,
+    "crc32": "047fdeb6"
+   }
+  },
+  {
+   "path": "ED2-98/SCENA/T_114.BZH",
+   "patch": "ED2-98_SCENA_T_114.BZH.bps",
+   "source": {
+    "size": 2623,
+    "crc32": "850ddd07"
+   },
+   "target": {
+    "size": 3172,
+    "crc32": "724e0e40"
+   }
+  },
+  {
+   "path": "ED2-98/SCENA/T_116.BZH",
+   "patch": "ED2-98_SCENA_T_116.BZH.bps",
+   "source": {
+    "size": 1639,
+    "crc32": "a7a979d3"
+   },
+   "target": {
+    "size": 2053,
+    "crc32": "bd19a731"
+   }
+  },
+  {
+   "path": "ED2-98/SCENA/T_118.BZH",
+   "patch": "ED2-98_SCENA_T_118.BZH.bps",
+   "source": {
+    "size": 1640,
+    "crc32": "aa3ff412"
+   },
+   "target": {
+    "size": 2010,
+    "crc32": "e26e8257"
+   }
+  },
+  {
+   "path": "ED2-98/SCENA/T_120.BZH",
+   "patch": "ED2-98_SCENA_T_120.BZH.bps",
+   "source": {
+    "size": 2694,
+    "crc32": "2820b1a3"
+   },
+   "target": {
+    "size": 3360,
+    "crc32": "8010b6af"
+   }
+  },
+  {
+   "path": "ED2-98/SCENA/T_122.BZH",
+   "patch": "ED2-98_SCENA_T_122.BZH.bps",
+   "source": {
+    "size": 2289,
+    "crc32": "3ddba6be"
+   },
+   "target": {
+    "size": 2853,
+    "crc32": "82d9605d"
+   }
+  },
+  {
+   "path": "ED2-98/SCENA/T_124.BZH",
+   "patch": "ED2-98_SCENA_T_124.BZH.bps",
+   "source": {
+    "size": 2571,
+    "crc32": "132b657d"
+   },
+   "target": {
+    "size": 3231,
+    "crc32": "da30c251"
+   }
+  },
+  {
+   "path": "ED2-98/SCENA/T_126.BZH",
+   "patch": "ED2-98_SCENA_T_126.BZH.bps",
+   "source": {
+    "size": 2548,
+    "crc32": "aa7b0870"
+   },
+   "target": {
+    "size": 3094,
+    "crc32": "ae5f36dd"
+   }
+  },
+  {
+   "path": "ED2-98/SCENA/T_130.BZH",
+   "patch": "ED2-98_SCENA_T_130.BZH.bps",
+   "source": {
+    "size": 1477,
+    "crc32": "9d808fa0"
+   },
+   "target": {
+    "size": 1784,
+    "crc32": "c6c614e6"
+   }
+  },
+  {
+   "path": "ED2-98/SCENA/T_140.BZH",
+   "patch": "ED2-98_SCENA_T_140.BZH.bps",
+   "source": {
+    "size": 3321,
+    "crc32": "97693a44"
+   },
+   "target": {
+    "size": 4062,
+    "crc32": "8a0476c7"
+   }
+  },
+  {
+   "path": "ED2-98/SCENA/T_141.BZH",
+   "patch": "ED2-98_SCENA_T_141.BZH.bps",
+   "source": {
+    "size": 1560,
+    "crc32": "bfe4afc3"
+   },
+   "target": {
+    "size": 1945,
+    "crc32": "8f8300d7"
+   }
+  },
+  {
+   "path": "ED2-98/SCENA/T_143.BZH",
+   "patch": "ED2-98_SCENA_T_143.BZH.bps",
+   "source": {
+    "size": 1806,
+    "crc32": "79e31b6e"
+   },
+   "target": {
+    "size": 2317,
+    "crc32": "8b8c1774"
+   }
+  },
+  {
+   "path": "ED2-98/SCENA/T_144.BZH",
+   "patch": "ED2-98_SCENA_T_144.BZH.bps",
+   "source": {
+    "size": 1262,
+    "crc32": "0dd4dde8"
+   },
+   "target": {
+    "size": 1574,
+    "crc32": "bce09953"
+   }
+  },
+  {
+   "path": "ED2-98/SCENA/T_146.BZH",
+   "patch": "ED2-98_SCENA_T_146.BZH.bps",
+   "source": {
+    "size": 1306,
+    "crc32": "f8965a31"
+   },
+   "target": {
+    "size": 1676,
+    "crc32": "fe33c126"
+   }
+  },
+  {
+   "path": "ED2-98/SCENA/T_200.BZH",
+   "patch": "ED2-98_SCENA_T_200.BZH.bps",
+   "source": {
+    "size": 3077,
+    "crc32": "b2c09fc8"
+   },
+   "target": {
+    "size": 3769,
+    "crc32": "0fdb6d83"
+   }
+  },
+  {
+   "path": "ED2-98/SCENA/T_201.BZH",
+   "patch": "ED2-98_SCENA_T_201.BZH.bps",
+   "source": {
+    "size": 1758,
+    "crc32": "666445c7"
+   },
+   "target": {
+    "size": 2183,
+    "crc32": "897ffb2b"
+   }
+  },
+  {
+   "path": "ED2-98/SCENA/T_202.BZH",
+   "patch": "ED2-98_SCENA_T_202.BZH.bps",
+   "source": {
+    "size": 766,
+    "crc32": "8863fd1f"
+   },
+   "target": {
+    "size": 792,
+    "crc32": "b2e24f04"
+   }
+  },
+  {
+   "path": "ED2-98/SCENA/T_203.BZH",
+   "patch": "ED2-98_SCENA_T_203.BZH.bps",
+   "source": {
+    "size": 3000,
+    "crc32": "ba502b78"
+   },
+   "target": {
+    "size": 3715,
+    "crc32": "f8e08887"
+   }
+  },
+  {
+   "path": "ED2-98/SCENA/T_204.BZH",
+   "patch": "ED2-98_SCENA_T_204.BZH.bps",
+   "source": {
+    "size": 2880,
+    "crc32": "947261ac"
+   },
+   "target": {
+    "size": 3487,
+    "crc32": "26c26b5c"
+   }
+  },
+  {
+   "path": "ED2-98/SCENA/T_205.BZH",
+   "patch": "ED2-98_SCENA_T_205.BZH.bps",
+   "source": {
+    "size": 1677,
+    "crc32": "5b4b6fb2"
+   },
+   "target": {
+    "size": 2067,
+    "crc32": "cc3d7d0e"
+   }
+  },
+  {
+   "path": "ED2-98/SCENA/T_206.BZH",
+   "patch": "ED2-98_SCENA_T_206.BZH.bps",
+   "source": {
+    "size": 1522,
+    "crc32": "8dcc31c1"
+   },
+   "target": {
+    "size": 1809,
+    "crc32": "48d96ac3"
+   }
+  },
+  {
+   "path": "ED2-98/SCENA/T_208.BZH",
+   "patch": "ED2-98_SCENA_T_208.BZH.bps",
+   "source": {
+    "size": 2089,
+    "crc32": "84bc93ed"
+   },
+   "target": {
+    "size": 2559,
+    "crc32": "b3d2c2f3"
+   }
+  },
+  {
+   "path": "ED2-98/SCENA/T_209.BZH",
+   "patch": "ED2-98_SCENA_T_209.BZH.bps",
+   "source": {
+    "size": 1038,
+    "crc32": "471a098e"
+   },
+   "target": {
+    "size": 1265,
+    "crc32": "603cf81e"
+   }
+  },
+  {
+   "path": "ED2-98/SCENA/T_20A.BZH",
+   "patch": "ED2-98_SCENA_T_20A.BZH.bps",
+   "source": {
+    "size": 637,
+    "crc32": "a2296ba9"
+   },
+   "target": {
+    "size": 682,
+    "crc32": "6641b99d"
+   }
+  },
+  {
+   "path": "ED2-98/SCENA/T_20C.BZH",
+   "patch": "ED2-98_SCENA_T_20C.BZH.bps",
+   "source": {
+    "size": 2210,
+    "crc32": "5184eba8"
+   },
+   "target": {
+    "size": 2727,
+    "crc32": "dbc4e0e2"
+   }
+  },
+  {
+   "path": "ED2-98/SCENA/T_20D.BZH",
+   "patch": "ED2-98_SCENA_T_20D.BZH.bps",
+   "source": {
+    "size": 1034,
+    "crc32": "63e50747"
+   },
+   "target": {
+    "size": 1228,
+    "crc32": "86a3f999"
+   }
+  },
+  {
+   "path": "ED2-98/SCENA/T_20E.BZH",
+   "patch": "ED2-98_SCENA_T_20E.BZH.bps",
+   "source": {
+    "size": 641,
+    "crc32": "16e4fe3f"
+   },
+   "target": {
+    "size": 686,
+    "crc32": "e9171286"
+   }
+  },
+  {
+   "path": "ED2-98/SCENA/T_210.BZH",
+   "patch": "ED2-98_SCENA_T_210.BZH.bps",
+   "source": {
+    "size": 2873,
+    "crc32": "b63ef113"
+   },
+   "target": {
+    "size": 3506,
+    "crc32": "a4a9f0f1"
+   }
+  },
+  {
+   "path": "ED2-98/SCENA/T_211.BZH",
+   "patch": "ED2-98_SCENA_T_211.BZH.bps",
+   "source": {
+    "size": 1747,
+    "crc32": "05d38ddd"
+   },
+   "target": {
+    "size": 2110,
+    "crc32": "04133fd6"
+   }
+  },
+  {
+   "path": "ED2-98/SCENA/T_212.BZH",
+   "patch": "ED2-98_SCENA_T_212.BZH.bps",
+   "source": {
+    "size": 868,
+    "crc32": "668e37e8"
+   },
+   "target": {
+    "size": 999,
+    "crc32": "5b1cf3f3"
+   }
+  },
+  {
+   "path": "ED2-98/SCENA/T_220.BZH",
+   "patch": "ED2-98_SCENA_T_220.BZH.bps",
+   "source": {
+    "size": 1433,
+    "crc32": "49b72f4c"
+   },
+   "target": {
+    "size": 1790,
+    "crc32": "e49194aa"
+   }
+  },
+  {
+   "path": "ED2-98/SCENA/T_221.BZH",
+   "patch": "ED2-98_SCENA_T_221.BZH.bps",
+   "source": {
+    "size": 2717,
+    "crc32": "6ed9f297"
+   },
+   "target": {
+    "size": 3148,
+    "crc32": "c11ba6e1"
+   }
+  },
+  {
+   "path": "ED2-98/SCENA/T_222.BZH",
+   "patch": "ED2-98_SCENA_T_222.BZH.bps",
+   "source": {
+    "size": 989,
+    "crc32": "41a3e25e"
+   },
+   "target": {
+    "size": 1210,
+    "crc32": "e5e76544"
+   }
+  },
+  {
+   "path": "ED2-98/SCENA/T_230.BZH",
+   "patch": "ED2-98_SCENA_T_230.BZH.bps",
+   "source": {
+    "size": 1895,
+    "crc32": "ddecbfc8"
+   },
+   "target": {
+    "size": 2400,
+    "crc32": "18261c53"
+   }
+  },
+  {
+   "path": "ED2-98/SCENA/T_231.BZH",
+   "patch": "ED2-98_SCENA_T_231.BZH.bps",
+   "source": {
+    "size": 2271,
+    "crc32": "1fea504b"
+   },
+   "target": {
+    "size": 2724,
+    "crc32": "04f08975"
+   }
+  },
+  {
+   "path": "ED2-98/SCENA/T_234.BZH",
+   "patch": "ED2-98_SCENA_T_234.BZH.bps",
+   "source": {
+    "size": 2249,
+    "crc32": "dde6493c"
+   },
+   "target": {
+    "size": 2718,
+    "crc32": "464e6c7a"
+   }
+  },
+  {
+   "path": "ED2-98/SCENA/T_235.BZH",
+   "patch": "ED2-98_SCENA_T_235.BZH.bps",
+   "source": {
+    "size": 1604,
+    "crc32": "c32bab1d"
+   },
+   "target": {
+    "size": 1841,
+    "crc32": "37aa83c1"
+   }
+  },
+  {
+   "path": "ED2-98/SCENA/T_236.BZH",
+   "patch": "ED2-98_SCENA_T_236.BZH.bps",
+   "source": {
+    "size": 2065,
+    "crc32": "19c0cd1d"
+   },
+   "target": {
+    "size": 2425,
+    "crc32": "714e080a"
+   }
+  },
+  {
+   "path": "ED2-98/SCENA/T_238.BZH",
+   "patch": "ED2-98_SCENA_T_238.BZH.bps",
+   "source": {
+    "size": 2079,
+    "crc32": "eef9491d"
+   },
+   "target": {
+    "size": 2545,
+    "crc32": "d9f6ff9c"
+   }
+  },
+  {
+   "path": "ED2-98/SCENA/T_240.BZH",
+   "patch": "ED2-98_SCENA_T_240.BZH.bps",
+   "source": {
+    "size": 1992,
+    "crc32": "8b7a4500"
+   },
+   "target": {
+    "size": 2464,
+    "crc32": "5175cd3e"
+   }
+  },
+  {
+   "path": "ED2-98/SCENA/T_242.BZH",
+   "patch": "ED2-98_SCENA_T_242.BZH.bps",
+   "source": {
+    "size": 1221,
+    "crc32": "f9940ed9"
+   },
+   "target": {
+    "size": 1562,
+    "crc32": "7b0f2e35"
+   }
+  },
+  {
+   "path": "ED2-98/SCENA/T_244.BZH",
+   "patch": "ED2-98_SCENA_T_244.BZH.bps",
+   "source": {
+    "size": 1005,
+    "crc32": "137957c9"
+   },
+   "target": {
+    "size": 1180,
+    "crc32": "c69b96f1"
+   }
+  },
+  {
+   "path": "ED2-98/SCENA/T_246.BZH",
+   "patch": "ED2-98_SCENA_T_246.BZH.bps",
+   "source": {
+    "size": 1816,
+    "crc32": "818fab34"
+   },
+   "target": {
+    "size": 2144,
+    "crc32": "986d740b"
+   }
+  },
+  {
+   "path": "ED2-98/SCENA/T_250.BZH",
+   "patch": "ED2-98_SCENA_T_250.BZH.bps",
+   "source": {
+    "size": 1596,
+    "crc32": "46e2a553"
+   },
+   "target": {
+    "size": 1956,
+    "crc32": "34631f4a"
+   }
+  },
+  {
+   "path": "ED2-98/SCENA/T_252.BZH",
+   "patch": "ED2-98_SCENA_T_252.BZH.bps",
+   "source": {
+    "size": 1387,
+    "crc32": "3ba2565f"
+   },
+   "target": {
+    "size": 1652,
+    "crc32": "1beb3cd3"
+   }
+  },
+  {
+   "path": "ED2-98/SCENA/T_254.BZH",
+   "patch": "ED2-98_SCENA_T_254.BZH.bps",
+   "source": {
+    "size": 1116,
+    "crc32": "5bf1c328"
+   },
+   "target": {
+    "size": 1290,
+    "crc32": "aa4a3d71"
+   }
+  },
+  {
+   "path": "ED2-98/SCENA/T_256.BZH",
+   "patch": "ED2-98_SCENA_T_256.BZH.bps",
+   "source": {
+    "size": 1071,
+    "crc32": "8b860940"
+   },
+   "target": {
+    "size": 1309,
+    "crc32": "b2a2156c"
+   }
+  },
+  {
+   "path": "ED2-98/SCENA/T_260.BZH",
+   "patch": "ED2-98_SCENA_T_260.BZH.bps",
+   "source": {
+    "size": 1046,
+    "crc32": "d9886dfa"
+   },
+   "target": {
+    "size": 1272,
+    "crc32": "cc632668"
+   }
+  },
+  {
+   "path": "ED2-98/SCENA/T_261.BZH",
+   "patch": "ED2-98_SCENA_T_261.BZH.bps",
+   "source": {
+    "size": 1365,
+    "crc32": "24ac80d6"
+   },
+   "target": {
+    "size": 1686,
+    "crc32": "97d18ab6"
+   }
+  },
+  {
+   "path": "ED2-98/SCENA/T_262.BZH",
+   "patch": "ED2-98_SCENA_T_262.BZH.bps",
+   "source": {
+    "size": 1409,
+    "crc32": "47b4a779"
+   },
+   "target": {
+    "size": 1697,
+    "crc32": "1915b626"
+   }
+  },
+  {
+   "path": "ED2-98/SCENA/T_264.BZH",
+   "patch": "ED2-98_SCENA_T_264.BZH.bps",
+   "source": {
+    "size": 1569,
+    "crc32": "931ea3ee"
+   },
+   "target": {
+    "size": 1916,
+    "crc32": "704fc6c9"
+   }
+  },
+  {
+   "path": "ED2-98/SCENA/T_266.BZH",
+   "patch": "ED2-98_SCENA_T_266.BZH.bps",
+   "source": {
+    "size": 1512,
+    "crc32": "757f4b7b"
+   },
+   "target": {
+    "size": 1941,
+    "crc32": "e84f60db"
+   }
+  },
+  {
+   "path": "ED2-98/SCENA/T_268.BZH",
+   "patch": "ED2-98_SCENA_T_268.BZH.bps",
+   "source": {
+    "size": 1511,
+    "crc32": "90275837"
+   },
+   "target": {
+    "size": 1899,
+    "crc32": "1dd7d5d7"
+   }
+  },
+  {
+   "path": "ED2-98/SCENA/T_270.BZH",
+   "patch": "ED2-98_SCENA_T_270.BZH.bps",
+   "source": {
+    "size": 1743,
+    "crc32": "a2fdc679"
+   },
+   "target": {
+    "size": 2145,
+    "crc32": "31e93244"
+   }
+  },
+  {
+   "path": "ED2-98/SCENA/T_271.BZH",
+   "patch": "ED2-98_SCENA_T_271.BZH.bps",
+   "source": {
+    "size": 1877,
+    "crc32": "7403a324"
+   },
+   "target": {
+    "size": 2319,
+    "crc32": "8747297d"
+   }
+  },
+  {
+   "path": "ED2-98/SCENA/T_274.BZH",
+   "patch": "ED2-98_SCENA_T_274.BZH.bps",
+   "source": {
+    "size": 1971,
+    "crc32": "9039c6f2"
+   },
+   "target": {
+    "size": 2403,
+    "crc32": "9cea6b95"
+   }
+  },
+  {
+   "path": "ED2-98/SCENA/T_275.BZH",
+   "patch": "ED2-98_SCENA_T_275.BZH.bps",
+   "source": {
+    "size": 435,
+    "crc32": "662aa3af"
+   },
+   "target": {
+    "size": 490,
+    "crc32": "cde4a0ad"
+   }
+  },
+  {
+   "path": "ED2-98/SCENA/T_276.BZH",
+   "patch": "ED2-98_SCENA_T_276.BZH.bps",
+   "source": {
+    "size": 1912,
+    "crc32": "3ec70345"
+   },
+   "target": {
+    "size": 2411,
+    "crc32": "e7c1953a"
+   }
+  },
+  {
+   "path": "ED2-98/SCENA/T_277.BZH",
+   "patch": "ED2-98_SCENA_T_277.BZH.bps",
+   "source": {
+    "size": 349,
+    "crc32": "6d01b1c0"
+   },
+   "target": {
+    "size": 418,
+    "crc32": "7002f1b6"
+   }
+  },
+  {
+   "path": "ED2-98/SCENA/T_278.BZH",
+   "patch": "ED2-98_SCENA_T_278.BZH.bps",
+   "source": {
+    "size": 1225,
+    "crc32": "2a639462"
+   },
+   "target": {
+    "size": 1413,
+    "crc32": "5317bf34"
+   }
+  },
+  {
+   "path": "ED2-98/SCENA/T_279.BZH",
+   "patch": "ED2-98_SCENA_T_279.BZH.bps",
+   "source": {
+    "size": 293,
+    "crc32": "a5e683ed"
+   },
+   "target": {
+    "size": 343,
+    "crc32": "8070c6fd"
+   }
+  },
+  {
+   "path": "ED2-98/SCENA/T_27A.BZH",
+   "patch": "ED2-98_SCENA_T_27A.BZH.bps",
+   "source": {
+    "size": 1127,
+    "crc32": "2a0f9ac6"
+   },
+   "target": {
+    "size": 1383,
+    "crc32": "98f93abe"
+   }
+  },
+  {
+   "path": "ED2-98/SCENA/T_27B.BZH",
+   "patch": "ED2-98_SCENA_T_27B.BZH.bps",
+   "source": {
+    "size": 294,
+    "crc32": "c6e112dc"
+   },
+   "target": {
+    "size": 321,
+    "crc32": "6e1d2803"
+   }
+  },
+  {
+   "path": "ED2-98/SCENA/T_300.BZH",
+   "patch": "ED2-98_SCENA_T_300.BZH.bps",
+   "source": {
+    "size": 1981,
+    "crc32": "2b1b219e"
+   },
+   "target": {
+    "size": 2442,
+    "crc32": "dd3849bf"
+   }
+  },
+  {
+   "path": "ED2-98/SCENA/T_302.BZH",
+   "patch": "ED2-98_SCENA_T_302.BZH.bps",
+   "source": {
+    "size": 1601,
+    "crc32": "6ac1feac"
+   },
+   "target": {
+    "size": 1891,
+    "crc32": "f4338d16"
+   }
+  },
+  {
+   "path": "ED2-98/SCENA/T_304.BZH",
+   "patch": "ED2-98_SCENA_T_304.BZH.bps",
+   "source": {
+    "size": 1504,
+    "crc32": "e161773a"
+   },
+   "target": {
+    "size": 1785,
+    "crc32": "9f9c4aaa"
+   }
+  },
+  {
+   "path": "ED2-98/SCENA/T_306.BZH",
+   "patch": "ED2-98_SCENA_T_306.BZH.bps",
+   "source": {
+    "size": 1501,
+    "crc32": "714c31a4"
+   },
+   "target": {
+    "size": 1814,
+    "crc32": "42460146"
+   }
+  },
+  {
+   "path": "ED2-98/SCENA/T_310.BZH",
+   "patch": "ED2-98_SCENA_T_310.BZH.bps",
+   "source": {
+    "size": 1273,
+    "crc32": "857f00f4"
+   },
+   "target": {
+    "size": 1467,
+    "crc32": "a84f3ce1"
+   }
+  },
+  {
+   "path": "ED2-98/SCENA/T_312.BZH",
+   "patch": "ED2-98_SCENA_T_312.BZH.bps",
+   "source": {
+    "size": 1295,
+    "crc32": "1dc67a99"
+   },
+   "target": {
+    "size": 1550,
+    "crc32": "ebd6c54b"
+   }
+  },
+  {
+   "path": "ED2-98/SCENA/T_314.BZH",
+   "patch": "ED2-98_SCENA_T_314.BZH.bps",
+   "source": {
+    "size": 1281,
+    "crc32": "3d9d5f52"
+   },
+   "target": {
+    "size": 1522,
+    "crc32": "fd176601"
+   }
+  },
+  {
+   "path": "ED2-98/SCENA/T_316.BZH",
+   "patch": "ED2-98_SCENA_T_316.BZH.bps",
+   "source": {
+    "size": 1226,
+    "crc32": "1721c72a"
+   },
+   "target": {
+    "size": 1443,
+    "crc32": "ae1205f9"
+   }
+  },
+  {
+   "path": "ED2-98/SCENA/T_320.BZH",
+   "patch": "ED2-98_SCENA_T_320.BZH.bps",
+   "source": {
+    "size": 1472,
+    "crc32": "7a6a1d08"
+   },
+   "target": {
+    "size": 1679,
+    "crc32": "eeadba5e"
+   }
+  },
+  {
+   "path": "ED2-98/SCENA/T_322.BZH",
+   "patch": "ED2-98_SCENA_T_322.BZH.bps",
+   "source": {
+    "size": 1682,
+    "crc32": "7bb38c24"
+   },
+   "target": {
+    "size": 2072,
+    "crc32": "59770d80"
+   }
+  },
+  {
+   "path": "ED2-98/SCENA/T_324.BZH",
+   "patch": "ED2-98_SCENA_T_324.BZH.bps",
+   "source": {
+    "size": 1475,
+    "crc32": "16f8ef8d"
+   },
+   "target": {
+    "size": 1768,
+    "crc32": "e5dead21"
+   }
+  },
+  {
+   "path": "ED2-98/SCENA/T_326.BZH",
+   "patch": "ED2-98_SCENA_T_326.BZH.bps",
+   "source": {
+    "size": 1458,
+    "crc32": "2267ac48"
+   },
+   "target": {
+    "size": 1744,
+    "crc32": "2eb08133"
+   }
+  },
+  {
+   "path": "ED2-98/SCENA/T_330.BZH",
+   "patch": "ED2-98_SCENA_T_330.BZH.bps",
+   "source": {
+    "size": 1444,
+    "crc32": "46effc4c"
+   },
+   "target": {
+    "size": 1801,
+    "crc32": "eece0fa4"
+   }
+  },
+  {
+   "path": "ED2-98/SCENA/T_332.BZH",
+   "patch": "ED2-98_SCENA_T_332.BZH.bps",
+   "source": {
+    "size": 1658,
+    "crc32": "669c1c76"
+   },
+   "target": {
+    "size": 2110,
+    "crc32": "ee172595"
+   }
+  },
+  {
+   "path": "ED2-98/SCENA/T_334.BZH",
+   "patch": "ED2-98_SCENA_T_334.BZH.bps",
+   "source": {
+    "size": 1253,
+    "crc32": "3539e64b"
+   },
+   "target": {
+    "size": 1553,
+    "crc32": "db012f32"
+   }
+  },
+  {
+   "path": "ED2-98/SCENA/T_336.BZH",
+   "patch": "ED2-98_SCENA_T_336.BZH.bps",
+   "source": {
+    "size": 1253,
+    "crc32": "fbf88327"
+   },
+   "target": {
+    "size": 1537,
+    "crc32": "f8e4ac2b"
+   }
+  },
+  {
+   "path": "ED2-98/SCENA/T_400.BZH",
+   "patch": "ED2-98_SCENA_T_400.BZH.bps",
+   "source": {
+    "size": 1697,
+    "crc32": "cec94493"
+   },
+   "target": {
+    "size": 2050,
+    "crc32": "6cc249ad"
+   }
+  },
+  {
+   "path": "ED2-98/SCENA/T_402.BZH",
+   "patch": "ED2-98_SCENA_T_402.BZH.bps",
+   "source": {
+    "size": 1748,
+    "crc32": "5b7164f2"
+   },
+   "target": {
+    "size": 2103,
+    "crc32": "234e5350"
+   }
+  },
+  {
+   "path": "ED2-98/SCENA/T_404.BZH",
+   "patch": "ED2-98_SCENA_T_404.BZH.bps",
+   "source": {
+    "size": 1508,
+    "crc32": "d04cb253"
+   },
+   "target": {
+    "size": 1842,
+    "crc32": "c4754968"
+   }
+  },
+  {
+   "path": "ED2-98/SCENA/T_406.BZH",
+   "patch": "ED2-98_SCENA_T_406.BZH.bps",
+   "source": {
+    "size": 1504,
+    "crc32": "cdd1d3ce"
+   },
+   "target": {
+    "size": 1789,
+    "crc32": "a960633d"
+   }
+  },
+  {
+   "path": "ED2-98/SCENA/T_410.BZH",
+   "patch": "ED2-98_SCENA_T_410.BZH.bps",
+   "source": {
+    "size": 2106,
+    "crc32": "9ac41a1b"
+   },
+   "target": {
+    "size": 2598,
+    "crc32": "6e7d4691"
+   }
+  },
+  {
+   "path": "ED2-98/SCENA/T_412.BZH",
+   "patch": "ED2-98_SCENA_T_412.BZH.bps",
+   "source": {
+    "size": 1169,
+    "crc32": "f0b072bf"
+   },
+   "target": {
+    "size": 1493,
+    "crc32": "33567ee1"
+   }
+  },
+  {
+   "path": "ED2-98/SCENA/T_414.BZH",
+   "patch": "ED2-98_SCENA_T_414.BZH.bps",
+   "source": {
+    "size": 906,
+    "crc32": "28727c72"
+   },
+   "target": {
+    "size": 1112,
+    "crc32": "e4953396"
+   }
+  },
+  {
+   "path": "ED2-98/SCENA/T_416.BZH",
+   "patch": "ED2-98_SCENA_T_416.BZH.bps",
+   "source": {
+    "size": 892,
+    "crc32": "93add8e4"
+   },
+   "target": {
+    "size": 1097,
+    "crc32": "9a834378"
+   }
+  },
+  {
+   "path": "ED2-98/SCENA/T_420.BZH",
+   "patch": "ED2-98_SCENA_T_420.BZH.bps",
+   "source": {
+    "size": 2445,
+    "crc32": "4aac4431"
+   },
+   "target": {
+    "size": 2932,
+    "crc32": "5743a718"
+   }
+  },
+  {
+   "path": "ED2-98/SCENA/T_422.BZH",
+   "patch": "ED2-98_SCENA_T_422.BZH.bps",
+   "source": {
+    "size": 924,
+    "crc32": "6f4131c9"
+   },
+   "target": {
+    "size": 1159,
+    "crc32": "65baefee"
+   }
+  },
+  {
+   "path": "ED2-98/SCENA/T_424.BZH",
+   "patch": "ED2-98_SCENA_T_424.BZH.bps",
+   "source": {
+    "size": 829,
+    "crc32": "82c1b063"
+   },
+   "target": {
+    "size": 981,
+    "crc32": "d2ebed67"
+   }
+  },
+  {
+   "path": "ED2-98/SCENA/T_426.BZH",
+   "patch": "ED2-98_SCENA_T_426.BZH.bps",
+   "source": {
+    "size": 864,
+    "crc32": "4740f47d"
+   },
+   "target": {
+    "size": 1071,
+    "crc32": "7e42cc4c"
+   }
+  },
+  {
+   "path": "ED2-98/SCENA/T_430.BZH",
+   "patch": "ED2-98_SCENA_T_430.BZH.bps",
+   "source": {
+    "size": 2622,
+    "crc32": "3c92b7a3"
+   },
+   "target": {
+    "size": 2989,
+    "crc32": "5c3d3b98"
+   }
+  },
+  {
+   "path": "ED2-98/SCENA/T_432.BZH",
+   "patch": "ED2-98_SCENA_T_432.BZH.bps",
+   "source": {
+    "size": 1863,
+    "crc32": "04b27a24"
+   },
+   "target": {
+    "size": 2292,
+    "crc32": "55199284"
+   }
+  },
+  {
+   "path": "ED2-98/SCENA/T_434.BZH",
+   "patch": "ED2-98_SCENA_T_434.BZH.bps",
+   "source": {
+    "size": 1379,
+    "crc32": "3a45ff9b"
+   },
+   "target": {
+    "size": 1728,
+    "crc32": "30dae759"
+   }
+  },
+  {
+   "path": "ED2-98/SCENA/T_436.BZH",
+   "patch": "ED2-98_SCENA_T_436.BZH.bps",
+   "source": {
+    "size": 1397,
+    "crc32": "d06f8970"
+   },
+   "target": {
+    "size": 1784,
+    "crc32": "d65a39fc"
+   }
+  },
+  {
+   "path": "ED2-98/SCENA/T_500.BZH",
+   "patch": "ED2-98_SCENA_T_500.BZH.bps",
+   "source": {
+    "size": 1886,
+    "crc32": "26672182"
+   },
+   "target": {
+    "size": 2244,
+    "crc32": "c348e1fc"
+   }
+  },
+  {
+   "path": "ED2-98/SCENA/T_501.BZH",
+   "patch": "ED2-98_SCENA_T_501.BZH.bps",
+   "source": {
+    "size": 2690,
+    "crc32": "45976e17"
+   },
+   "target": {
+    "size": 3080,
+    "crc32": "3a5f17c3"
+   }
+  },
+  {
+   "path": "ED2-98/SCENA/T_502.BZH",
+   "patch": "ED2-98_SCENA_T_502.BZH.bps",
+   "source": {
+    "size": 1966,
+    "crc32": "9e4a5e1b"
+   },
+   "target": {
+    "size": 2344,
+    "crc32": "96a3ad27"
+   }
+  },
+  {
+   "path": "ED2-98/SCENA/T_503.BZH",
+   "patch": "ED2-98_SCENA_T_503.BZH.bps",
+   "source": {
+    "size": 2360,
+    "crc32": "c4c56c6e"
+   },
+   "target": {
+    "size": 2833,
+    "crc32": "282f78ae"
+   }
+  },
+  {
+   "path": "ED2-98/SCENA/T_505.BZH",
+   "patch": "ED2-98_SCENA_T_505.BZH.bps",
+   "source": {
+    "size": 1982,
+    "crc32": "4f9f6899"
+   },
+   "target": {
+    "size": 2503,
+    "crc32": "eb63b290"
+   }
+  },
+  {
+   "path": "ED2-98/SCENA/T_506.BZH",
+   "patch": "ED2-98_SCENA_T_506.BZH.bps",
+   "source": {
+    "size": 702,
+    "crc32": "cc6359f1"
+   },
+   "target": {
+    "size": 792,
+    "crc32": "19399115"
+   }
+  },
+  {
+   "path": "ED2-98/SCENA/T_510.BZH",
+   "patch": "ED2-98_SCENA_T_510.BZH.bps",
+   "source": {
+    "size": 2433,
+    "crc32": "93df6655"
+   },
+   "target": {
+    "size": 3062,
+    "crc32": "1bfcbcd3"
+   }
+  },
+  {
+   "path": "ED2-98/SCENA/T_511.BZH",
+   "patch": "ED2-98_SCENA_T_511.BZH.bps",
+   "source": {
+    "size": 2103,
+    "crc32": "942703b8"
+   },
+   "target": {
+    "size": 2586,
+    "crc32": "a2d2692c"
+   }
+  },
+  {
+   "path": "ED2-98/SCENA/T_512.BZH",
+   "patch": "ED2-98_SCENA_T_512.BZH.bps",
+   "source": {
+    "size": 1676,
+    "crc32": "2f618c1b"
+   },
+   "target": {
+    "size": 2003,
+    "crc32": "fee34dad"
+   }
+  },
+  {
+   "path": "ED2-98/SCENA/T_514.BZH",
+   "patch": "ED2-98_SCENA_T_514.BZH.bps",
+   "source": {
+    "size": 1387,
+    "crc32": "1995fbfb"
+   },
+   "target": {
+    "size": 1640,
+    "crc32": "4e9fe106"
+   }
+  },
+  {
+   "path": "ED2-98/SCENA/T_520.BZH",
+   "patch": "ED2-98_SCENA_T_520.BZH.bps",
+   "source": {
+    "size": 1345,
+    "crc32": "18568177"
+   },
+   "target": {
+    "size": 1720,
+    "crc32": "39431f3e"
+   }
+  },
+  {
+   "path": "ED2-98/SCENA/T_521.BZH",
+   "patch": "ED2-98_SCENA_T_521.BZH.bps",
+   "source": {
+    "size": 3148,
+    "crc32": "ea30a4a7"
+   },
+   "target": {
+    "size": 3835,
+    "crc32": "0c990471"
+   }
+  },
+  {
+   "path": "ED2-98/SCENA/T_523.BZH",
+   "patch": "ED2-98_SCENA_T_523.BZH.bps",
+   "source": {
+    "size": 1852,
+    "crc32": "781f7961"
+   },
+   "target": {
+    "size": 2338,
+    "crc32": "60e4cac6"
+   }
+  },
+  {
+   "path": "ED2-98/SCENA/T_524.BZH",
+   "patch": "ED2-98_SCENA_T_524.BZH.bps",
+   "source": {
+    "size": 1285,
+    "crc32": "e97157b3"
+   },
+   "target": {
+    "size": 1612,
+    "crc32": "3c162657"
+   }
+  },
+  {
+   "path": "ED2-98/SCENA/T_525.BZH",
+   "patch": "ED2-98_SCENA_T_525.BZH.bps",
+   "source": {
+    "size": 291,
+    "crc32": "76e9ff84"
+   },
+   "target": {
+    "size": 299,
+    "crc32": "adcd6bd2"
+   }
+  },
+  {
+   "path": "ED2-98/SCENA/T_526.BZH",
+   "patch": "ED2-98_SCENA_T_526.BZH.bps",
+   "source": {
+    "size": 1260,
+    "crc32": "9b3c458e"
+   },
+   "target": {
+    "size": 1569,
+    "crc32": "b814ca03"
+   }
+  },
+  {
+   "path": "ED2-98/SCENA/T_527.BZH",
+   "patch": "ED2-98_SCENA_T_527.BZH.bps",
+   "source": {
+    "size": 282,
+    "crc32": "8894c1db"
+   },
+   "target": {
+    "size": 283,
+    "crc32": "6982896b"
+   }
+  },
+  {
+   "path": "ED2-98/SCENA/T_529.BZH",
+   "patch": "ED2-98_SCENA_T_529.BZH.bps",
+   "source": {
+    "size": 2054,
+    "crc32": "b24016cb"
+   },
+   "target": {
+    "size": 2535,
+    "crc32": "82ec2e1c"
+   }
+  },
+  {
+   "path": "ED2-98/SCENA/T_530.BZH",
+   "patch": "ED2-98_SCENA_T_530.BZH.bps",
+   "source": {
+    "size": 2398,
+    "crc32": "4f8e45d6"
+   },
+   "target": {
+    "size": 2862,
+    "crc32": "442cf688"
+   }
+  },
+  {
+   "path": "ED2-98/SCENA/T_532.BZH",
+   "patch": "ED2-98_SCENA_T_532.BZH.bps",
+   "source": {
+    "size": 2875,
+    "crc32": "3adae31b"
+   },
+   "target": {
+    "size": 3421,
+    "crc32": "1bc0270f"
+   }
+  },
+  {
+   "path": "ED2-98/SCENA/T_540.BZH",
+   "patch": "ED2-98_SCENA_T_540.BZH.bps",
+   "source": {
+    "size": 2100,
+    "crc32": "17d8997e"
+   },
+   "target": {
+    "size": 2444,
+    "crc32": "d4c560c7"
+   }
+  },
+  {
+   "path": "ED2-98/SCENA/T_541.BZH",
+   "patch": "ED2-98_SCENA_T_541.BZH.bps",
+   "source": {
+    "size": 571,
+    "crc32": "82675e19"
+   },
+   "target": {
+    "size": 735,
+    "crc32": "57b2235f"
+   }
+  },
+  {
+   "path": "ED2-98/SCENA/T_542.BZH",
+   "patch": "ED2-98_SCENA_T_542.BZH.bps",
+   "source": {
+    "size": 1639,
+    "crc32": "d2c10655"
+   },
+   "target": {
+    "size": 1937,
+    "crc32": "ad783dd2"
+   }
+  },
+  {
+   "path": "ED2-98/SCENA/T_543.BZH",
+   "patch": "ED2-98_SCENA_T_543.BZH.bps",
+   "source": {
+    "size": 1801,
+    "crc32": "c2058fb1"
+   },
+   "target": {
+    "size": 2106,
+    "crc32": "6371a02c"
+   }
+  },
+  {
+   "path": "ED2-98/SCENA/T_544.BZH",
+   "patch": "ED2-98_SCENA_T_544.BZH.bps",
+   "source": {
+    "size": 753,
+    "crc32": "226bbdce"
+   },
+   "target": {
+    "size": 921,
+    "crc32": "c82ba1dd"
+   }
+  },
+  {
+   "path": "ED2-98/SCENA/T_545.BZH",
+   "patch": "ED2-98_SCENA_T_545.BZH.bps",
+   "source": {
+    "size": 395,
+    "crc32": "fc67060b"
+   },
+   "target": {
+    "size": 400,
+    "crc32": "7bba9d12"
+   }
+  },
+  {
+   "path": "ED2-98/SCENA/T_550.BZH",
+   "patch": "ED2-98_SCENA_T_550.BZH.bps",
+   "source": {
+    "size": 1307,
+    "crc32": "167a7280"
+   },
+   "target": {
+    "size": 1522,
+    "crc32": "79092fd3"
+   }
+  },
+  {
+   "path": "ED2-98/SCENA/T_551.BZH",
+   "patch": "ED2-98_SCENA_T_551.BZH.bps",
+   "source": {
+    "size": 1769,
+    "crc32": "5c319909"
+   },
+   "target": {
+    "size": 2027,
+    "crc32": "8c419587"
+   }
+  },
+  {
+   "path": "ED2-98/SCENA/T_553.BZH",
+   "patch": "ED2-98_SCENA_T_553.BZH.bps",
+   "source": {
+    "size": 3241,
+    "crc32": "997611e1"
+   },
+   "target": {
+    "size": 3704,
+    "crc32": "5941501e"
+   }
+  },
+  {
+   "path": "ED2-98/SCENA/T_555.BZH",
+   "patch": "ED2-98_SCENA_T_555.BZH.bps",
+   "source": {
+    "size": 775,
+    "crc32": "6618119d"
+   },
+   "target": {
+    "size": 859,
+    "crc32": "3adadd02"
+   }
+  },
+  {
+   "path": "ED2-98/SCENA/T_560.BZH",
+   "patch": "ED2-98_SCENA_T_560.BZH.bps",
+   "source": {
+    "size": 2245,
+    "crc32": "14c6da99"
+   },
+   "target": {
+    "size": 2573,
+    "crc32": "97941362"
+   }
+  },
+  {
+   "path": "ED2-98/SCENA/T_562.BZH",
+   "patch": "ED2-98_SCENA_T_562.BZH.bps",
+   "source": {
+    "size": 1613,
+    "crc32": "f2f475da"
+   },
+   "target": {
+    "size": 1865,
+    "crc32": "342884ec"
+   }
+  },
+  {
+   "path": "ED2-98/SCENA/T_570.BZH",
+   "patch": "ED2-98_SCENA_T_570.BZH.bps",
+   "source": {
+    "size": 2532,
+    "crc32": "83570279"
+   },
+   "target": {
+    "size": 3123,
+    "crc32": "4814d9dd"
+   }
+  },
+  {
+   "path": "ED2-98/SCENA/V_000.BZH",
+   "patch": "ED2-98_SCENA_V_000.BZH.bps",
+   "source": {
+    "size": 1592,
+    "crc32": "306969d9"
+   },
+   "target": {
+    "size": 1844,
+    "crc32": "f4c1d51c"
+   }
+  },
+  {
+   "path": "ED2-98/SCENA/V_100.BZH",
+   "patch": "ED2-98_SCENA_V_100.BZH.bps",
+   "source": {
+    "size": 1530,
+    "crc32": "e42510dd"
+   },
+   "target": {
+    "size": 1687,
+    "crc32": "ad9b08cc"
+   }
+  },
+  {
+   "path": "ED2-98/SCENA/V_200.BZH",
+   "patch": "ED2-98_SCENA_V_200.BZH.bps",
+   "source": {
+    "size": 2222,
+    "crc32": "205de206"
+   },
+   "target": {
+    "size": 2517,
+    "crc32": "d0e56b8a"
+   }
+  },
+  {
+   "path": "ED2-98/SCENA/V_300.BZH",
+   "patch": "ED2-98_SCENA_V_300.BZH.bps",
+   "source": {
+    "size": 1660,
+    "crc32": "83ae6989"
+   },
+   "target": {
+    "size": 1879,
+    "crc32": "859f8560"
+   }
+  },
+  {
+   "path": "ED2-98/SCENA/V_400.BZH",
+   "patch": "ED2-98_SCENA_V_400.BZH.bps",
+   "source": {
+    "size": 3959,
+    "crc32": "de530ec0"
+   },
+   "target": {
+    "size": 4408,
+    "crc32": "896a2150"
+   }
+  },
+  {
+   "path": "ED2-98/OPENING.BZH",
+   "patch": "ED2-98_OPENING.BZH.bps",
+   "source": {
+    "size": 8491,
+    "crc32": "be7c6f4f"
+   },
+   "target": {
+    "size": 9695,
+    "crc32": "5c6b4acc"
+   }
+  },
+  {
+   "path": "ED2-98/ENDING.BZH",
+   "patch": "ED2-98_ENDING.BZH.bps",
+   "source": {
+    "size": 6913,
+    "crc32": "212a31c3"
+   },
+   "target": {
+    "size": 7727,
+    "crc32": "2ed3a70f"
+   }
+  },
+  {
+   "path": "ED2-98/MON/M_000.BZH",
+   "patch": "ED2-98_MON_M_000.BZH.bps",
+   "source": {
+    "size": 172,
+    "crc32": "eea1fe5f"
+   },
+   "target": {
+    "size": 186,
+    "crc32": "58101f03"
+   }
+  },
+  {
+   "path": "ED2-98/MON/M_001.BZH",
+   "patch": "ED2-98_MON_M_001.BZH.bps",
+   "source": {
+    "size": 273,
+    "crc32": "4d5d34a3"
+   },
+   "target": {
+    "size": 282,
+    "crc32": "3bb2aa7a"
+   }
+  },
+  {
+   "path": "ED2-98/MON/M_002.BZH",
+   "patch": "ED2-98_MON_M_002.BZH.bps",
+   "source": {
+    "size": 828,
+    "crc32": "520d5e1b"
+   },
+   "target": {
+    "size": 887,
+    "crc32": "ea7f1460"
+   }
+  },
+  {
+   "path": "ED2-98/MON/M_103.BZH",
+   "patch": "ED2-98_MON_M_103.BZH.bps",
+   "source": {
+    "size": 250,
+    "crc32": "c79c46e1"
+   },
+   "target": {
+    "size": 262,
+    "crc32": "8fb4eff8"
+   }
+  },
+  {
+   "path": "ED2-98/MON/M_104.BZH",
+   "patch": "ED2-98_MON_M_104.BZH.bps",
+   "source": {
+    "size": 389,
+    "crc32": "6151e5fd"
+   },
+   "target": {
+    "size": 405,
+    "crc32": "2e9d250b"
+   }
+  },
+  {
+   "path": "ED2-98/MON/M_105.BZH",
+   "patch": "ED2-98_MON_M_105.BZH.bps",
+   "source": {
+    "size": 593,
+    "crc32": "23147fd4"
+   },
+   "target": {
+    "size": 630,
+    "crc32": "117d789f"
+   }
+  },
+  {
+   "path": "ED2-98/MON/M_106.BZH",
+   "patch": "ED2-98_MON_M_106.BZH.bps",
+   "source": {
+    "size": 510,
+    "crc32": "57b94ba1"
+   },
+   "target": {
+    "size": 523,
+    "crc32": "c91b020c"
+   }
+  },
+  {
+   "path": "ED2-98/MON/M_107.BZH",
+   "patch": "ED2-98_MON_M_107.BZH.bps",
+   "source": {
+    "size": 484,
+    "crc32": "9248bd02"
+   },
+   "target": {
+    "size": 497,
+    "crc32": "e1ce4b6e"
+   }
+  },
+  {
+   "path": "ED2-98/MON/M_108.BZH",
+   "patch": "ED2-98_MON_M_108.BZH.bps",
+   "source": {
+    "size": 274,
+    "crc32": "dee208d5"
+   },
+   "target": {
+    "size": 278,
+    "crc32": "8be7c92b"
+   }
+  },
+  {
+   "path": "ED2-98/MON/M_109.BZH",
+   "patch": "ED2-98_MON_M_109.BZH.bps",
+   "source": {
+    "size": 569,
+    "crc32": "b7e3fbfe"
+   },
+   "target": {
+    "size": 586,
+    "crc32": "f7fce95c"
+   }
+  },
+  {
+   "path": "ED2-98/MON/M_110.BZH",
+   "patch": "ED2-98_MON_M_110.BZH.bps",
+   "source": {
+    "size": 463,
+    "crc32": "4924fa21"
+   },
+   "target": {
+    "size": 479,
+    "crc32": "c221b050"
+   }
+  },
+  {
+   "path": "ED2-98/MON/M_111.BZH",
+   "patch": "ED2-98_MON_M_111.BZH.bps",
+   "source": {
+    "size": 268,
+    "crc32": "a4796fdf"
+   },
+   "target": {
+    "size": 267,
+    "crc32": "96a56544"
+   }
+  },
+  {
+   "path": "ED2-98/MON/M_112.BZH",
+   "patch": "ED2-98_MON_M_112.BZH.bps",
+   "source": {
+    "size": 233,
+    "crc32": "9c1f9851"
+   },
+   "target": {
+    "size": 245,
+    "crc32": "14b48042"
+   }
+  },
+  {
+   "path": "ED2-98/MON/M_113.BZH",
+   "patch": "ED2-98_MON_M_113.BZH.bps",
+   "source": {
+    "size": 366,
+    "crc32": "35dfbe45"
+   },
+   "target": {
+    "size": 367,
+    "crc32": "62eb1d0e"
+   }
+  },
+  {
+   "path": "ED2-98/MON/M_114.BZH",
+   "patch": "ED2-98_MON_M_114.BZH.bps",
+   "source": {
+    "size": 276,
+    "crc32": "1cb0d8ba"
+   },
+   "target": {
+    "size": 286,
+    "crc32": "bb801b50"
+   }
+  },
+  {
+   "path": "ED2-98/MON/M_115.BZH",
+   "patch": "ED2-98_MON_M_115.BZH.bps",
+   "source": {
+    "size": 638,
+    "crc32": "76ef8c34"
+   },
+   "target": {
+    "size": 667,
+    "crc32": "79c54caf"
+   }
+  },
+  {
+   "path": "ED2-98/MON/M_116.BZH",
+   "patch": "ED2-98_MON_M_116.BZH.bps",
+   "source": {
+    "size": 273,
+    "crc32": "ffeb7b8f"
+   },
+   "target": {
+    "size": 274,
+    "crc32": "8ddb39aa"
+   }
+  },
+  {
+   "path": "ED2-98/MON/M_117.BZH",
+   "patch": "ED2-98_MON_M_117.BZH.bps",
+   "source": {
+    "size": 462,
+    "crc32": "125a346e"
+   },
+   "target": {
+    "size": 478,
+    "crc32": "9e43fa78"
+   }
+  },
+  {
+   "path": "ED2-98/MON/M_118.BZH",
+   "patch": "ED2-98_MON_M_118.BZH.bps",
+   "source": {
+    "size": 559,
+    "crc32": "6590041c"
+   },
+   "target": {
+    "size": 591,
+    "crc32": "74539b0f"
+   }
+  },
+  {
+   "path": "ED2-98/MON/M_119.BZH",
+   "patch": "ED2-98_MON_M_119.BZH.bps",
+   "source": {
+    "size": 308,
+    "crc32": "12dbb478"
+   },
+   "target": {
+    "size": 314,
+    "crc32": "78d88fb4"
+   }
+  },
+  {
+   "path": "ED2-98/MON/M_120.BZH",
+   "patch": "ED2-98_MON_M_120.BZH.bps",
+   "source": {
+    "size": 619,
+    "crc32": "4087e90d"
+   },
+   "target": {
+    "size": 649,
+    "crc32": "78f0ad82"
+   }
+  },
+  {
+   "path": "ED2-98/MON/M_121.BZH",
+   "patch": "ED2-98_MON_M_121.BZH.bps",
+   "source": {
+    "size": 411,
+    "crc32": "be9080d7"
+   },
+   "target": {
+    "size": 411,
+    "crc32": "ab43cd30"
+   }
+  },
+  {
+   "path": "ED2-98/MON/M_122.BZH",
+   "patch": "ED2-98_MON_M_122.BZH.bps",
+   "source": {
+    "size": 247,
+    "crc32": "592a3072"
+   },
+   "target": {
+    "size": 252,
+    "crc32": "26cbb2cd"
+   }
+  },
+  {
+   "path": "ED2-98/MON/M_123.BZH",
+   "patch": "ED2-98_MON_M_123.BZH.bps",
+   "source": {
+    "size": 410,
+    "crc32": "983d8224"
+   },
+   "target": {
+    "size": 417,
+    "crc32": "30830f72"
+   }
+  },
+  {
+   "path": "ED2-98/MON/M_124.BZH",
+   "patch": "ED2-98_MON_M_124.BZH.bps",
+   "source": {
+    "size": 635,
+    "crc32": "39fa65a0"
+   },
+   "target": {
+    "size": 656,
+    "crc32": "ca2b7999"
+   }
+  },
+  {
+   "path": "ED2-98/MON/M_125.BZH",
+   "patch": "ED2-98_MON_M_125.BZH.bps",
+   "source": {
+    "size": 350,
+    "crc32": "43f123f1"
+   },
+   "target": {
+    "size": 360,
+    "crc32": "49597abd"
+   }
+  },
+  {
+   "path": "ED2-98/MON/M_126.BZH",
+   "patch": "ED2-98_MON_M_126.BZH.bps",
+   "source": {
+    "size": 1013,
+    "crc32": "2bfbbd03"
+   },
+   "target": {
+    "size": 1061,
+    "crc32": "228c65b4"
+   }
+  },
+  {
+   "path": "ED2-98/MON/M_127.BZH",
+   "patch": "ED2-98_MON_M_127.BZH.bps",
+   "source": {
+    "size": 412,
+    "crc32": "b61c67b3"
+   },
+   "target": {
+    "size": 414,
+    "crc32": "64eb07c5"
+   }
+  },
+  {
+   "path": "ED2-98/MON/M_128.BZH",
+   "patch": "ED2-98_MON_M_128.BZH.bps",
+   "source": {
+    "size": 590,
+    "crc32": "f9aff0ff"
+   },
+   "target": {
+    "size": 610,
+    "crc32": "91b60c01"
+   }
+  },
+  {
+   "path": "ED2-98/MON/M_129.BZH",
+   "patch": "ED2-98_MON_M_129.BZH.bps",
+   "source": {
+    "size": 692,
+    "crc32": "576c69e8"
+   },
+   "target": {
+    "size": 743,
+    "crc32": "bd1ee6b8"
+   }
+  },
+  {
+   "path": "ED2-98/MON/M_200.BZH",
+   "patch": "ED2-98_MON_M_200.BZH.bps",
+   "source": {
+    "size": 445,
+    "crc32": "db829cc2"
+   },
+   "target": {
+    "size": 466,
+    "crc32": "b18f314f"
+   }
+  },
+  {
+   "path": "ED2-98/MON/M_201.BZH",
+   "patch": "ED2-98_MON_M_201.BZH.bps",
+   "source": {
+    "size": 483,
+    "crc32": "f3ec8359"
+   },
+   "target": {
+    "size": 487,
+    "crc32": "11625474"
+   }
+  },
+  {
+   "path": "ED2-98/MON/M_202.BZH",
+   "patch": "ED2-98_MON_M_202.BZH.bps",
+   "source": {
+    "size": 612,
+    "crc32": "d5296634"
+   },
+   "target": {
+    "size": 645,
+    "crc32": "62852b5f"
+   }
+  },
+  {
+   "path": "ED2-98/MON/M_203.BZH",
+   "patch": "ED2-98_MON_M_203.BZH.bps",
+   "source": {
+    "size": 485,
+    "crc32": "a94559dc"
+   },
+   "target": {
+    "size": 503,
+    "crc32": "b50d10d7"
+   }
+  },
+  {
+   "path": "ED2-98/MON/M_204.BZH",
+   "patch": "ED2-98_MON_M_204.BZH.bps",
+   "source": {
+    "size": 426,
+    "crc32": "b78f4ef3"
+   },
+   "target": {
+    "size": 433,
+    "crc32": "0c4f08f1"
+   }
+  },
+  {
+   "path": "ED2-98/MON/M_205.BZH",
+   "patch": "ED2-98_MON_M_205.BZH.bps",
+   "source": {
+    "size": 385,
+    "crc32": "561a94bc"
+   },
+   "target": {
+    "size": 399,
+    "crc32": "7922d985"
+   }
+  },
+  {
+   "path": "ED2-98/MON/M_206.BZH",
+   "patch": "ED2-98_MON_M_206.BZH.bps",
+   "source": {
+    "size": 431,
+    "crc32": "de615f4b"
+   },
+   "target": {
+    "size": 445,
+    "crc32": "e641ae85"
+   }
+  },
+  {
+   "path": "ED2-98/MON/M_207.BZH",
+   "patch": "ED2-98_MON_M_207.BZH.bps",
+   "source": {
+    "size": 524,
+    "crc32": "689415ac"
+   },
+   "target": {
+    "size": 539,
+    "crc32": "58f12c7d"
+   }
+  },
+  {
+   "path": "ED2-98/MON/M_208.BZH",
+   "patch": "ED2-98_MON_M_208.BZH.bps",
+   "source": {
+    "size": 330,
+    "crc32": "1436c7fe"
+   },
+   "target": {
+    "size": 329,
+    "crc32": "cbccd430"
+   }
+  },
+  {
+   "path": "ED2-98/MON/M_209.BZH",
+   "patch": "ED2-98_MON_M_209.BZH.bps",
+   "source": {
+    "size": 553,
+    "crc32": "8a2e6023"
+   },
+   "target": {
+    "size": 558,
+    "crc32": "178adf34"
+   }
+  },
+  {
+   "path": "ED2-98/MON/M_210.BZH",
+   "patch": "ED2-98_MON_M_210.BZH.bps",
+   "source": {
+    "size": 532,
+    "crc32": "1d2670cb"
+   },
+   "target": {
+    "size": 567,
+    "crc32": "de8ef0e8"
+   }
+  },
+  {
+   "path": "ED2-98/MON/M_211.BZH",
+   "patch": "ED2-98_MON_M_211.BZH.bps",
+   "source": {
+    "size": 607,
+    "crc32": "e9eabe8a"
+   },
+   "target": {
+    "size": 621,
+    "crc32": "d21f1bb3"
+   }
+  },
+  {
+   "path": "ED2-98/MON/M_212.BZH",
+   "patch": "ED2-98_MON_M_212.BZH.bps",
+   "source": {
+    "size": 371,
+    "crc32": "fa06688c"
+   },
+   "target": {
+    "size": 375,
+    "crc32": "a985b7e6"
+   }
+  },
+  {
+   "path": "ED2-98/MON/M_213.BZH",
+   "patch": "ED2-98_MON_M_213.BZH.bps",
+   "source": {
+    "size": 436,
+    "crc32": "cab60bf4"
+   },
+   "target": {
+    "size": 434,
+    "crc32": "e9154f64"
+   }
+  },
+  {
+   "path": "ED2-98/MON/M_313.BZH",
+   "patch": "ED2-98_MON_M_313.BZH.bps",
+   "source": {
+    "size": 618,
+    "crc32": "aa40cba3"
+   },
+   "target": {
+    "size": 635,
+    "crc32": "7a236d45"
+   }
+  },
+  {
+   "path": "ED2-98/MON/M_314.BZH",
+   "patch": "ED2-98_MON_M_314.BZH.bps",
+   "source": {
+    "size": 293,
+    "crc32": "108f52a2"
+   },
+   "target": {
+    "size": 296,
+    "crc32": "1fad74d7"
+   }
+  },
+  {
+   "path": "ED2-98/MON/M_315.BZH",
+   "patch": "ED2-98_MON_M_315.BZH.bps",
+   "source": {
+    "size": 353,
+    "crc32": "21796cba"
+   },
+   "target": {
+    "size": 356,
+    "crc32": "9065911c"
+   }
+  },
+  {
+   "path": "ED2-98/MON/M_316.BZH",
+   "patch": "ED2-98_MON_M_316.BZH.bps",
+   "source": {
+    "size": 268,
+    "crc32": "4556fd61"
+   },
+   "target": {
+    "size": 273,
+    "crc32": "c4adbf91"
+   }
+  },
+  {
+   "path": "ED2-98/MON/M_317.BZH",
+   "patch": "ED2-98_MON_M_317.BZH.bps",
+   "source": {
+    "size": 729,
+    "crc32": "bc547b4e"
+   },
+   "target": {
+    "size": 767,
+    "crc32": "e0c79b69"
+   }
+  },
+  {
+   "path": "ED2-98/MON/M_318.BZH",
+   "patch": "ED2-98_MON_M_318.BZH.bps",
+   "source": {
+    "size": 351,
+    "crc32": "9ff69251"
+   },
+   "target": {
+    "size": 343,
+    "crc32": "123142d4"
+   }
+  },
+  {
+   "path": "ED2-98/MON/M_319.BZH",
+   "patch": "ED2-98_MON_M_319.BZH.bps",
+   "source": {
+    "size": 453,
+    "crc32": "566510b7"
+   },
+   "target": {
+    "size": 435,
+    "crc32": "f9ca483d"
+   }
+  },
+  {
+   "path": "ED2-98/MON/M_320.BZH",
+   "patch": "ED2-98_MON_M_320.BZH.bps",
+   "source": {
+    "size": 583,
+    "crc32": "62793335"
+   },
+   "target": {
+    "size": 581,
+    "crc32": "6fb6c51b"
+   }
+  },
+  {
+   "path": "ED2-98/MON/M_321.BZH",
+   "patch": "ED2-98_MON_M_321.BZH.bps",
+   "source": {
+    "size": 855,
+    "crc32": "c8405711"
+   },
+   "target": {
+    "size": 868,
+    "crc32": "011be58f"
+   }
+  },
+  {
+   "path": "ED2-98/MON/M_322.BZH",
+   "patch": "ED2-98_MON_M_322.BZH.bps",
+   "source": {
+    "size": 490,
+    "crc32": "42f8b106"
+   },
+   "target": {
+    "size": 512,
+    "crc32": "caf88946"
+   }
+  },
+  {
+   "path": "ED2-98/MON/M_323.BZH",
+   "patch": "ED2-98_MON_M_323.BZH.bps",
+   "source": {
+    "size": 480,
+    "crc32": "dd0858bf"
+   },
+   "target": {
+    "size": 483,
+    "crc32": "cd2e7c78"
+   }
+  },
+  {
+   "path": "ED2-98/MON/M_324.BZH",
+   "patch": "ED2-98_MON_M_324.BZH.bps",
+   "source": {
+    "size": 355,
+    "crc32": "03fdad06"
+   },
+   "target": {
+    "size": 359,
+    "crc32": "c411c5dc"
+   }
+  },
+  {
+   "path": "ED2-98/MON/M_325.BZH",
+   "patch": "ED2-98_MON_M_325.BZH.bps",
+   "source": {
+    "size": 350,
+    "crc32": "f371d64c"
+   },
+   "target": {
+    "size": 359,
+    "crc32": "266a5528"
+   }
+  },
+  {
+   "path": "ED2-98/MON/M_326.BZH",
+   "patch": "ED2-98_MON_M_326.BZH.bps",
+   "source": {
+    "size": 386,
+    "crc32": "f9811f26"
+   },
+   "target": {
+    "size": 395,
+    "crc32": "7ed0cfe0"
+   }
+  },
+  {
+   "path": "ED2-98/MON/M_327.BZH",
+   "patch": "ED2-98_MON_M_327.BZH.bps",
+   "source": {
+    "size": 516,
+    "crc32": "455a4f34"
+   },
+   "target": {
+    "size": 519,
+    "crc32": "3414bf68"
+   }
+  },
+  {
+   "path": "ED2-98/MON/M_328.BZH",
+   "patch": "ED2-98_MON_M_328.BZH.bps",
+   "source": {
+    "size": 581,
+    "crc32": "96f99c38"
+   },
+   "target": {
+    "size": 586,
+    "crc32": "28862c53"
+   }
+  },
+  {
+   "path": "ED2-98/MON/M_329.BZH",
+   "patch": "ED2-98_MON_M_329.BZH.bps",
+   "source": {
+    "size": 565,
+    "crc32": "b5a755d2"
+   },
+   "target": {
+    "size": 579,
+    "crc32": "ba262bb1"
+   }
+  },
+  {
+   "path": "ED2-98/MON/M_400.BZH",
+   "patch": "ED2-98_MON_M_400.BZH.bps",
+   "source": {
+    "size": 1461,
+    "crc32": "76ee2b7f"
+   },
+   "target": {
+    "size": 1536,
+    "crc32": "e38de006"
+   }
+  },
+  {
+   "path": "ED2-98/MON/M_401.BZH",
+   "patch": "ED2-98_MON_M_401.BZH.bps",
+   "source": {
+    "size": 975,
+    "crc32": "b4e63301"
+   },
+   "target": {
+    "size": 1012,
+    "crc32": "5b491636"
+   }
+  },
+  {
+   "path": "ED2-98/MON/M_402.BZH",
+   "patch": "ED2-98_MON_M_402.BZH.bps",
+   "source": {
+    "size": 549,
+    "crc32": "60aecd70"
+   },
+   "target": {
+    "size": 584,
+    "crc32": "a04de8dc"
+   }
+  },
+  {
+   "path": "ED2-98/MON/M_403.BZH",
+   "patch": "ED2-98_MON_M_403.BZH.bps",
+   "source": {
+    "size": 476,
+    "crc32": "47c22804"
+   },
+   "target": {
+    "size": 480,
+    "crc32": "17e2680a"
+   }
+  },
+  {
+   "path": "ED2-98/MON/M_404.BZH",
+   "patch": "ED2-98_MON_M_404.BZH.bps",
+   "source": {
+    "size": 277,
+    "crc32": "8a6dc229"
+   },
+   "target": {
+    "size": 273,
+    "crc32": "ad18e611"
+   }
+  },
+  {
+   "path": "ED2-98/MON/M_405.BZH",
+   "patch": "ED2-98_MON_M_405.BZH.bps",
+   "source": {
+    "size": 385,
+    "crc32": "d4975bcd"
+   },
+   "target": {
+    "size": 392,
+    "crc32": "7ad06855"
+   }
+  },
+  {
+   "path": "ED2-98/MON/M_406.BZH",
+   "patch": "ED2-98_MON_M_406.BZH.bps",
+   "source": {
+    "size": 242,
+    "crc32": "098251d8"
+   },
+   "target": {
+    "size": 247,
+    "crc32": "de433f8f"
+   }
+  },
+  {
+   "path": "ED2-98/MON/M_407.BZH",
+   "patch": "ED2-98_MON_M_407.BZH.bps",
+   "source": {
+    "size": 657,
+    "crc32": "8eb17b9b"
+   },
+   "target": {
+    "size": 679,
+    "crc32": "2e232b8b"
+   }
+  },
+  {
+   "path": "ED2-98/MON/M_408.BZH",
+   "patch": "ED2-98_MON_M_408.BZH.bps",
+   "source": {
+    "size": 499,
+    "crc32": "03263f0f"
+   },
+   "target": {
+    "size": 530,
+    "crc32": "ca7b750c"
+   }
+  },
+  {
+   "path": "ED2-98/MON/M_409.BZH",
+   "patch": "ED2-98_MON_M_409.BZH.bps",
+   "source": {
+    "size": 454,
+    "crc32": "5f74cf2e"
+   },
+   "target": {
+    "size": 464,
+    "crc32": "2f78abb0"
+   }
+  },
+  {
+   "path": "ED2-98/MON/M_410.BZH",
+   "patch": "ED2-98_MON_M_410.BZH.bps",
+   "source": {
+    "size": 441,
+    "crc32": "d2e38db2"
+   },
+   "target": {
+    "size": 446,
+    "crc32": "299c26b4"
+   }
+  },
+  {
+   "path": "ED2-98/MON/M_411.BZH",
+   "patch": "ED2-98_MON_M_411.BZH.bps",
+   "source": {
+    "size": 596,
+    "crc32": "48c12188"
+   },
+   "target": {
+    "size": 625,
+    "crc32": "783a8632"
+   }
+  },
+  {
+   "path": "ED2-98/MON/M_412.BZH",
+   "patch": "ED2-98_MON_M_412.BZH.bps",
+   "source": {
+    "size": 834,
+    "crc32": "f4e85463"
+   },
+   "target": {
+    "size": 846,
+    "crc32": "f589be31"
+   }
+  },
+  {
+   "path": "ED2-98/MON/M_413.BZH",
+   "patch": "ED2-98_MON_M_413.BZH.bps",
+   "source": {
+    "size": 351,
+    "crc32": "5be4a24f"
+   },
+   "target": {
+    "size": 347,
+    "crc32": "f291edd6"
+   }
+  },
+  {
+   "path": "ED2-98/MON/M_414.BZH",
+   "patch": "ED2-98_MON_M_414.BZH.bps",
+   "source": {
+    "size": 410,
+    "crc32": "9a31630f"
+   },
+   "target": {
+    "size": 427,
+    "crc32": "427b1cf6"
+   }
+  },
+  {
+   "path": "ED2-98/MON/M_415.BZH",
+   "patch": "ED2-98_MON_M_415.BZH.bps",
+   "source": {
+    "size": 749,
+    "crc32": "bd2228de"
+   },
+   "target": {
+    "size": 782,
+    "crc32": "1addab26"
+   }
+  },
+  {
+   "path": "ED2-98/MON/M_416.BZH",
+   "patch": "ED2-98_MON_M_416.BZH.bps",
+   "source": {
+    "size": 674,
+    "crc32": "941f2eb0"
+   },
+   "target": {
+    "size": 669,
+    "crc32": "587473aa"
+   }
+  },
+  {
+   "path": "ED2-98/MON/M_417.BZH",
+   "patch": "ED2-98_MON_M_417.BZH.bps",
+   "source": {
+    "size": 376,
+    "crc32": "79733bd5"
+   },
+   "target": {
+    "size": 384,
+    "crc32": "8ecd94f1"
+   }
+  },
+  {
+   "path": "ED2-98/MON/M_418.BZH",
+   "patch": "ED2-98_MON_M_418.BZH.bps",
+   "source": {
+    "size": 641,
+    "crc32": "61f988ce"
+   },
+   "target": {
+    "size": 653,
+    "crc32": "77c86e2d"
+   }
+  },
+  {
+   "path": "ED2-98/MON/M_419.BZH",
+   "patch": "ED2-98_MON_M_419.BZH.bps",
+   "source": {
+    "size": 733,
+    "crc32": "89cb65c9"
+   },
+   "target": {
+    "size": 775,
+    "crc32": "abc32cc5"
+   }
+  },
+  {
+   "path": "ED2-98/MON/M_500.BZH",
+   "patch": "ED2-98_MON_M_500.BZH.bps",
+   "source": {
+    "size": 803,
+    "crc32": "4d274f7a"
+   },
+   "target": {
+    "size": 810,
+    "crc32": "eb10a390"
+   }
+  },
+  {
+   "path": "ED2-98/MON/M_501.BZH",
+   "patch": "ED2-98_MON_M_501.BZH.bps",
+   "source": {
+    "size": 1516,
+    "crc32": "7c558e1b"
+   },
+   "target": {
+    "size": 1561,
+    "crc32": "2f614d97"
+   }
+  },
+  {
+   "path": "ED2-98/MON/M_502.BZH",
+   "patch": "ED2-98_MON_M_502.BZH.bps",
+   "source": {
+    "size": 1050,
+    "crc32": "6818e967"
+   },
+   "target": {
+    "size": 1113,
+    "crc32": "fb880066"
+   }
+  },
+  {
+   "path": "ED2-98/MON/M_503.BZH",
+   "patch": "ED2-98_MON_M_503.BZH.bps",
+   "source": {
+    "size": 353,
+    "crc32": "f8e18196"
+   },
+   "target": {
+    "size": 358,
+    "crc32": "de42f28d"
+   }
+  },
+  {
+   "path": "ED2-98/MON/M_504.BZH",
+   "patch": "ED2-98_MON_M_504.BZH.bps",
+   "source": {
+    "size": 638,
+    "crc32": "e06a1bf8"
+   },
+   "target": {
+    "size": 655,
+    "crc32": "e016cf17"
+   }
+  },
+  {
+   "path": "ED2-98/MON/M_505.BZH",
+   "patch": "ED2-98_MON_M_505.BZH.bps",
+   "source": {
+    "size": 302,
+    "crc32": "b07d6031"
+   },
+   "target": {
+    "size": 301,
+    "crc32": "5ca6b711"
+   }
+  },
+  {
+   "path": "ED2-98/MON/M_506.BZH",
+   "patch": "ED2-98_MON_M_506.BZH.bps",
+   "source": {
+    "size": 353,
+    "crc32": "d8f4dfca"
+   },
+   "target": {
+    "size": 367,
+    "crc32": "6865910a"
+   }
+  },
+  {
+   "path": "ED2-98/MON/M_507.BZH",
+   "patch": "ED2-98_MON_M_507.BZH.bps",
+   "source": {
+    "size": 524,
+    "crc32": "28c4b16a"
+   },
+   "target": {
+    "size": 539,
+    "crc32": "681f688a"
+   }
+  },
+  {
+   "path": "ED2-98/MON/M_508.BZH",
+   "patch": "ED2-98_MON_M_508.BZH.bps",
+   "source": {
+    "size": 319,
+    "crc32": "cd56fd75"
+   },
+   "target": {
+    "size": 325,
+    "crc32": "d54b4de9"
+   }
+  },
+  {
+   "path": "ED2-98/MON/M_509.BZH",
+   "patch": "ED2-98_MON_M_509.BZH.bps",
+   "source": {
+    "size": 708,
+    "crc32": "f677508e"
+   },
+   "target": {
+    "size": 733,
+    "crc32": "2f36d372"
+   }
+  },
+  {
+   "path": "ED2-98/MON/M_510.BZH",
+   "patch": "ED2-98_MON_M_510.BZH.bps",
+   "source": {
+    "size": 742,
+    "crc32": "598418bf"
+   },
+   "target": {
+    "size": 765,
+    "crc32": "a357eba0"
+   }
+  },
+  {
+   "path": "ED2-98/MON/M_511.BZH",
+   "patch": "ED2-98_MON_M_511.BZH.bps",
+   "source": {
+    "size": 386,
+    "crc32": "5317c444"
+   },
+   "target": {
+    "size": 377,
+    "crc32": "55ac37e5"
+   }
+  },
+  {
+   "path": "ED2-98/MON/M_512.BZH",
+   "patch": "ED2-98_MON_M_512.BZH.bps",
+   "source": {
+    "size": 680,
+    "crc32": "d8827f6c"
+   },
+   "target": {
+    "size": 693,
+    "crc32": "10d618fe"
+   }
+  },
+  {
+   "path": "ED2-98/MON/M_513.BZH",
+   "patch": "ED2-98_MON_M_513.BZH.bps",
+   "source": {
+    "size": 462,
+    "crc32": "80afd1eb"
+   },
+   "target": {
+    "size": 474,
+    "crc32": "68f1274c"
+   }
+  },
+  {
+   "path": "ED2-98/MON/M_514.BZH",
+   "patch": "ED2-98_MON_M_514.BZH.bps",
+   "source": {
+    "size": 347,
+    "crc32": "f3388fd6"
+   },
+   "target": {
+    "size": 350,
+    "crc32": "83fe53f2"
+   }
+  },
+  {
+   "path": "ED2-98/MON/M_515.BZH",
+   "patch": "ED2-98_MON_M_515.BZH.bps",
+   "source": {
+    "size": 468,
+    "crc32": "f93c19e3"
+   },
+   "target": {
+    "size": 484,
+    "crc32": "18d497fb"
+   }
+  },
+  {
+   "path": "ED2-98/MON/M_516.BZH",
+   "patch": "ED2-98_MON_M_516.BZH.bps",
+   "source": {
+    "size": 264,
+    "crc32": "2deaaf86"
+   },
+   "target": {
+    "size": 271,
+    "crc32": "9d6f324d"
+   }
+  },
+  {
+   "path": "ED2-98/MON/M_518.BZH",
+   "patch": "ED2-98_MON_M_518.BZH.bps",
+   "source": {
+    "size": 599,
+    "crc32": "d37b2c3a"
+   },
+   "target": {
+    "size": 618,
+    "crc32": "8596cd2c"
+   }
+  },
+  {
+   "path": "ED2-98/PROG.BZH",
+   "patch": "ED2-98_PROG.BZH.bps",
+   "source": {
+    "size": 31235,
+    "crc32": "7948dc15"
+   },
+   "target": {
+    "size": 34260,
+    "crc32": "9c5f277d"
+   }
+  },
+  {
+   "path": "ED2-98/UTY.BZH",
+   "patch": "ED2-98_UTY.BZH.bps",
+   "source": {
+    "size": 8051,
+    "crc32": "523916bd"
+   },
+   "target": {
+    "size": 8758,
+    "crc32": "8844b858"
+   }
+  },
+  {
+   "path": "ED2-98/TEXT.BZH",
+   "patch": "ED2-98_TEXT.BZH.bps",
+   "source": {
+    "size": 1711,
+    "crc32": "eb466906"
+   },
+   "target": {
+    "size": 1399,
+    "crc32": "9129f694"
+   }
+  },
+  {
+   "path": "ED2-98/GRP/G_FKEY.BZZ",
+   "patch": "ED2-98_GRP_G_FKEY.BZZ.bps",
+   "source": {
+    "size": 5549,
+    "crc32": "7ae5c59d"
+   },
+   "target": {
+    "size": 3865,
+    "crc32": "e8c0c532"
+   }
+  }
+ ]
+}

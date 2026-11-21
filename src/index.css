@@ -605,3 +605,25 @@ html, body, #root {
   aspect-ratio: 16 / 9;
   border: 0;
 }
+.patch-langs {
+  display: flex;
+  gap: 4px;
+  margin-bottom: 12px;
+}
+
+.patch-langs button {
+  flex: 1;
+  padding: 6px 8px;
+  font: inherit;
+  font-size: 13px;
+  color: rgba(255, 255, 255, 0.6);
+  background: transparent;
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  cursor: pointer;
+}
+
+.patch-langs button[aria-checked='true'] {
+  color: white;
+  border-color: white;
+  background: rgba(255, 255, 255, 0.08);
+}
