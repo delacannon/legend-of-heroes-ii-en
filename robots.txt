@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://delacannon.github.io/legend-of-heroes-ii-en/sitemap.xml
